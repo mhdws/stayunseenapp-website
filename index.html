@@ -1,0 +1,1470 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stay Unseen — Read Receipts, Story Views &amp; Typing Privacy</title>
+    <meta
+      name="description"
+      content="Control read receipts, story views and typing indicators on Instagram, Facebook, Messenger, WhatsApp Web and Threads. Free core protection with an optional lifetime Pro upgrade."
+    />
+    <meta
+      name="keywords"
+      content="stay unseen, seen blocker, ig seen blocker, instagram seen blocker, facebook seen blocker, hide instagram story views, instagram story viewer anonymous, anonymous story viewer, read receipt blocker, hide read receipts instagram, messenger read receipts, typing indicator blocker, hide typing indicator, read dms without being seen, instagram privacy extension, facebook privacy extension, chrome extension, firefox addon, edge extension"
+    />
+    <meta name="theme-color" content="#12161f" />
+    <link rel="canonical" href="https://stayunseen.bond/" />
+    <link rel="icon" href="assets/icon128.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Stay Unseen — Browse on your terms" />
+    <meta
+      property="og:description"
+      content="Control read receipts, story views and typing indicators across five supported web apps. Free core protection with an optional lifetime Pro upgrade."
+    />
+    <meta property="og:url" content="https://stayunseen.bond/" />
+    <meta property="og:image" content="https://stayunseen.bond/assets/promo-poster.jpg" />
+    <meta property="og:image:width" content="1920" />
+    <meta property="og:image:height" content="1080" />
+    <meta property="og:image:alt" content="Stay Unseen — browse Instagram, Facebook and Messenger without being seen" />
+    <meta property="og:site_name" content="Stay Unseen" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Stay Unseen — Browse on your terms" />
+    <meta name="twitter:description" content="Control read receipts, story views and typing indicators across Instagram, Facebook, Messenger, WhatsApp Web and Threads." />
+    <meta name="twitter:image" content="https://stayunseen.bond/assets/promo-poster.jpg" />
+    <meta name="twitter:image:alt" content="Stay Unseen — browse Instagram, Facebook and Messenger without being seen" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="author" content="Mheadows" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://stayunseen.bond/sitemap.xml" />
+
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind compiled locally: npx tailwindcss@3.4.16 -c tailwind.config.js -i assets/tailwind.input.css -o assets/tailwind.css --minify -->
+    <link rel="stylesheet" href="assets/tailwind.css" />
+    <link rel="stylesheet" href="assets/app.css" />
+    <link rel="stylesheet" href="assets/release.css" />
+
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Stay Unseen free?","acceptedAnswer":{"@type":"Answer","text":"The core Instagram, Facebook and Messenger protections are free. Lifetime Pro is a one-time purchase that unlocks WhatsApp Web, Threads and the on-page tools — media downloads, the Instagram follow status badge, Mark Seen, the status pill, timed pause and the activity telemetry — on up to three devices. There is no subscription."}},{"@type":"Question","name":"Can I save reels, posts and stories with it?","acceptedAnswer":{"@type":"Answer","text":"Yes, with Lifetime Pro. A save control appears on the reel, post video, story slide or voice note you are already watching, and the file lands in your browser's usual Downloads at the quality the player is streaming — nothing is re-encoded. In a story it resolves the slide actually on screen rather than the first one in the tray. It saves the single item in front of you: there is no bulk profile export and nothing is crawled."}},{"@type":"Question","name":"How does the Instagram follow status badge work?","acceptedAnswer":{"@type":"Answer","text":"Open a profile and the badge reports the relationship that page already loaded in your own session: following you back, not following you, or your own profile. It reads what your logged-in browser can already see rather than crawling followers. If the lookup is refused, the badge says unknown instead of claiming that someone does not follow you."}},{"@type":"Question","name":"Does it work in the Instagram or Facebook mobile app?","acceptedAnswer":{"@type":"Answer","text":"No. Stay Unseen works in supported websites opened in Chrome, Edge or Firefox. It cannot reach native iOS or Android apps."}},{"@type":"Question","name":"Will it get my account blocked or banned?","acceptedAnswer":{"@type":"Answer","text":"Stay Unseen does not log in for you, automate anything, or scrape your account. It filters specific outgoing reports inside your own browser — the same category of tool as a content blocker — and it never adds anything to what you send."}},{"@type":"Question","name":"Does it slow the sites down?","acceptedAnswer":{"@type":"Answer","text":"No. It cancels those requests before they are made, so there is slightly less network work than usual, not more. The panel and its counters are local, so there is nothing extra to fetch."}},{"@type":"Question","name":"Do I have to configure anything?","acceptedAnswer":{"@type":"Answer","text":"No. Core protection starts with sensible defaults. Open the panel when you want to change a site or feature, or activate Lifetime Pro."}},{"@type":"Question","name":"What does it store, and does any of it leave my machine?","acceptedAnswer":{"@type":"Answer","text":"Settings, counters and a short diagnostic log stay in browser storage, with message text removed. Pro activation sends only the licence key and installation identifiers to the licence service; browsing content is not sent."}},{"@type":"Question","name":"Does it hide my online or active status?","acceptedAnswer":{"@type":"Answer","text":"No. It hides story and reel views, read receipts and typing indicators. Your active indicator is a different thing and is left untouched."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://stayunseen.bond/#website","url":"https://stayunseen.bond/","name":"Stay Unseen","description":"Browser privacy controls for read receipts, story views and typing indicators across Instagram, Facebook, Messenger, WhatsApp Web and Threads.","inLanguage":"en","publisher":{"@id":"https://stayunseen.bond/#author"}},{"@type":"SoftwareApplication","@id":"https://stayunseen.bond/#app","name":"Stay Unseen","applicationCategory":"BrowserApplication","operatingSystem":"Chrome, Edge, Firefox","url":"https://stayunseen.bond/","description":"Controls read receipts, story views and typing indicators across Instagram, Facebook, Messenger, WhatsApp Web and Threads with local per-feature settings.","keywords":"seen blocker, instagram seen blocker, facebook seen blocker, hide story views, read receipts blocker, typing indicator blocker, anonymous story viewer, reel downloader, story downloader, instagram follow status","featureList":["Hide Instagram story and reel views","Block Instagram DM read receipts","Hide Instagram typing indicators","Hide Facebook story views","Block Facebook and Messenger read receipts","Hide Messenger typing indicators","Download reels, post videos, story slides and voice notes with Lifetime Pro","Instagram follow status badge with Lifetime Pro","Mark Seen button and floating status pill with Lifetime Pro","Timed pause and per-chat privacy with Lifetime Pro","WhatsApp Web privacy controls with Lifetime Pro","Threads privacy controls with Lifetime Pro"],"author":{"@id":"https://stayunseen.bond/#author"}},{"@type":"Person","@id":"https://stayunseen.bond/#author","name":"Mheadows","url":"https://mheadows.bond/"}]}</script>
+  </head>
+
+  <body class="relative bg-surface font-sans text-ink antialiased selection:bg-shield/40 selection:text-white">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-xl focus:bg-panel focus:px-4 focus:py-2 focus:text-sm focus:text-ink"
+      >Skip to content</a
+    >
+
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-noise" aria-hidden="true"></div>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="fixed inset-x-0 top-0 z-50 px-3 pt-3 sm:px-6 sm:pt-4">
+      <nav
+        data-nav
+        class="mx-auto flex max-w-6xl items-center justify-between gap-3 rounded-2xl border border-white/10 bg-deep/80 px-3 py-2.5 backdrop-blur-md transition-shadow duration-300 sm:px-4"
+      >
+        <a href="#top" class="flex min-w-0 items-center gap-2.5 rounded-xl">
+          <img
+            src="assets/icon128.png"
+            alt="Stay Unseen shield"
+            class="h-9 w-9 shrink-0 rounded-xl object-cover ring-1 ring-white/10"
+            width="36"
+            height="36"
+          />
+          <span class="flex min-w-0 flex-col leading-none">
+            <span class="truncate text-[15px] font-bold tracking-tightest">Stay Unseen</span>
+            <span
+              class="nav-status mt-1 hidden min-w-0 items-center gap-1.5 font-mono text-[10px] text-muted sm:flex"
+              title="Instagram · Facebook · Messenger · WhatsApp · Threads"
+            >
+              <span class="su-status pulse inline-block shrink-0"></span>
+              <span class="nav-status-text">Instagram · Facebook · Messenger · WhatsApp · Threads</span>
+            </span>
+          </span>
+        </a>
+
+        <div class="hidden shrink-0 items-center gap-1 lg:flex">
+          <a class="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-white/5 hover:text-ink" href="#signals">Signals</a>
+          <a class="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-white/5 hover:text-ink" href="#protools">Pro tools</a>
+          <a class="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-white/5 hover:text-ink" href="#architecture">Architecture</a>
+          <a class="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-white/5 hover:text-ink" href="#privacy">Privacy</a>
+          <a class="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-white/5 hover:text-ink" href="#plans">Pricing</a>
+          <a class="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-white/5 hover:text-ink" href="#faq">FAQ</a>
+        </div>
+
+        <div class="flex shrink-0 items-center gap-2">
+          <a
+            href="https://hyperstrivelabs.lemonsqueezy.com/checkout/buy/cc66e59b-852b-4ff9-aa59-b85b5ba9203b"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="magnetic group inline-flex items-center gap-2 whitespace-nowrap rounded-xl bg-shield px-3.5 py-2 text-sm font-semibold text-white shadow-[0_0_0_1px_rgba(99,102,241,.6)] transition-shadow hover:shadow-glow sm:px-4"
+          >
+            <i data-lucide="sparkles" class="h-4 w-4"></i>
+            <span>Get Lifetime Pro</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- ================= HERO ================= -->
+      <section id="top" class="relative overflow-hidden px-3 pb-16 pt-28 sm:px-6 sm:pb-20 sm:pt-32">
+        <div class="glow-spot left-[-6rem] top-[-4rem] h-[26rem] w-[26rem] bg-shield/20" aria-hidden="true"></div>
+        <div class="glow-spot right-[-8rem] top-[6rem] h-[24rem] w-[24rem] bg-story/10" aria-hidden="true"></div>
+
+        <!-- Same container and gutters as the navbar, so the film lines up with it edge to edge. -->
+        <div class="relative z-10 mx-auto max-w-6xl">
+          <!-- Product film, at the navbar's width. Every label sits below the frame. -->
+          <div data-reveal data-tour>
+            <div class="tour rounded-2xl border border-white/15 bg-panel/40 p-1.5 shadow-[0_20px_50px_-15px_rgba(0,0,0,.85)]">
+              <video
+                class="tour-video rounded-xl"
+                data-tour-video
+                preload="none"
+                playsinline
+                controls
+                width="1920"
+                height="1080"
+                poster="assets/tour-poster.jpg"
+                aria-label="Stay Unseen product film"
+              >
+                <source src="assets/stayunseen-tour.mp4" type="video/mp4" />
+                Your browser cannot play this video. <a href="assets/stayunseen-tour.mp4">Download the film instead</a>.
+              </video>
+
+              <!-- The play control and its wording sit centred on the film. -->
+              <button type="button" class="tour-cover rounded-xl" data-tour-play>
+                <span class="tour-cover-shade rounded-xl" aria-hidden="true"></span>
+                <span class="tour-cta">
+                  <span class="tour-play" aria-hidden="true"><i data-lucide="play" class="h-5 w-5"></i></span>
+                  <span class="min-w-0 text-left">
+                    <span class="block text-sm font-semibold text-ink sm:text-base">Watch the film (80 seconds)</span>
+                    <span class="mt-0.5 block font-mono text-[10.5px] text-muted">
+                      Every signal, the live hooks and the Pro tools &middot; sound on
+                    </span>
+                  </span>
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Statement | explanation -->
+          <div class="mt-12 grid gap-8 sm:mt-14 lg:grid-cols-[1.12fr_0.88fr] lg:items-start lg:gap-12">
+            <!-- Left: the claim -->
+            <div>
+              <div data-reveal>
+                <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-panel/60 px-3.5 py-1.5 font-mono text-[10.5px] uppercase tracking-[0.18em] text-muted">
+                  <span class="h-1.5 w-1.5 rounded-full bg-typing animate-pulse"></span>
+                  [ Local-First Privacy Controls · v1.4.26 ]
+                </span>
+              </div>
+
+              <h1
+                data-reveal
+                class="mt-6 text-[2.75rem] font-extrabold leading-[1.04] tracking-tightest sm:text-6xl lg:text-[4.25rem]"
+              >
+                Browse without<br class="hidden sm:block" />
+                being <span class="text-gradient">Seen.</span>
+              </h1>
+
+              <div data-reveal class="mt-6 sm:mt-7">
+                <ul class="flex flex-wrap items-center gap-2" aria-label="Supported platforms">
+                  <li class="platform-chip wa">WhatsApp Web</li>
+                  <li class="platform-chip ig">Instagram</li>
+                  <li class="platform-chip fb">Facebook</li>
+                  <li class="platform-chip msg">Messenger</li>
+                  <li class="platform-chip th">Threads</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Right: what it does, and the two ways forward -->
+            <div>
+              <p data-reveal class="max-w-xl text-base leading-relaxed text-muted sm:text-lg">
+                Control read receipts, story views and typing indicators across WhatsApp Web, Instagram, Facebook,
+                Messenger and Threads. Core protection is free; Lifetime Pro unlocks WhatsApp, Threads and the
+                1-click HD media downloader.
+              </p>
+
+              <div data-reveal class="mt-6 flex flex-wrap items-center gap-3">
+                <a
+                  href="#install"
+                  data-browser-cta
+                  class="magnetic group inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-shield to-violet px-5 py-3.5 text-sm font-semibold text-white shadow-[0_0_0_1px_rgba(129,140,248,.5)] transition-shadow hover:shadow-glow"
+                >
+                  <i data-lucide="shield-check" class="h-4 w-4"></i>
+                  <span data-browser-label>Add to Chrome</span>
+                </a>
+                <a
+                  href="#architecture"
+                  class="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-panel/40 px-5 py-3.5 text-sm font-semibold text-ink transition hover:border-white/25"
+                >
+                  <i data-lucide="workflow" class="h-4 w-4"></i>
+                  <span>Inspect the architecture</span>
+                </a>
+              </div>
+
+              <ul data-reveal class="mt-6 flex flex-wrap gap-x-6 gap-y-2 font-mono text-[11px] text-muted">
+                <li class="flex items-center gap-2"><i data-lucide="shield-check" class="h-3.5 w-3.5 text-typing"></i>100% local interception</li>
+                <li class="flex items-center gap-2"><i data-lucide="circle-slash-2" class="h-3.5 w-3.5 text-typing"></i>Zero telemetry &amp; tracking</li>
+                <li class="flex items-center gap-2"><i data-lucide="key-round" class="h-3.5 w-3.5 text-typing"></i>One-time lifetime key</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SIGNALS ================= -->
+      <section id="signals" class="relative scroll-mt-24 px-5 py-20 sm:py-24">
+        <div class="glow-spot left-[-6rem] top-10 h-[20rem] w-[20rem] bg-amber/10" aria-hidden="true"></div>
+        <div class="relative z-10 mx-auto max-w-6xl">
+          <div class="max-w-2xl" data-reveal>
+            <span class="font-mono text-[11px] uppercase tracking-[0.22em] text-amber">The problem</span>
+            <h2 class="mt-4 text-3xl font-extrabold tracking-tightest sm:text-4xl">
+              You only looked. <span class="text-gradient">They were told anyway.</span>
+            </h2>
+            <p class="mt-4 text-muted">
+              Three signals leak the moment you open a thread or tap a story. Stay Unseen drops each one before
+              it ever leaves the tab.
+            </p>
+          </div>
+
+          <div class="mt-12 grid gap-5 lg:grid-cols-3">
+            <!-- Signal 01 -->
+            <article data-reveal class="group flex flex-col rounded-3xl border border-white/10 bg-panel/50 p-6 transition hover:-translate-y-1 hover:border-story/40">
+              <div class="flex items-center justify-between gap-3">
+                <span class="mono-label text-muted">Signal 01</span>
+                <span class="inline-flex items-center gap-2 rounded-full border border-story/40 bg-story/10 px-3 py-1 font-mono text-[10.5px] text-story">
+                  <span class="h-1.5 w-1.5 rounded-full bg-story"></span>story_seen
+                </span>
+              </div>
+              <h3 class="mt-5 text-lg font-bold tracking-tight">Your name never joins the <span class="text-gradient">viewer list.</span></h3>
+              <p class="mt-3 text-sm leading-relaxed text-muted">
+                The story still opens and plays to the end. The write that would add you to the viewer list is
+                dropped before it leaves the tab — the count stays <span class="font-mono text-ink">214 → 213</span>.
+              </p>
+              <div class="mt-5 flex flex-wrap gap-2">
+                <span class="rounded-full border border-white/10 px-2.5 py-1 font-mono text-[10px] text-muted">Instagram stories</span>
+                <span class="rounded-full border border-white/10 px-2.5 py-1 font-mono text-[10px] text-muted">Facebook stories</span>
+                <span class="rounded-full border border-white/10 px-2.5 py-1 font-mono text-[10px] text-muted">Reels</span>
+              </div>
+              <div class="mt-6 flex items-center gap-2 border-t border-white/10 pt-4 font-mono text-[10px]">
+                <span class="h-1.5 w-1.5 rounded-full bg-amber"></span>
+                <span class="text-amber">sent without it</span>
+                <i data-lucide="arrow-right" class="h-3 w-3 text-muted"></i>
+                <span class="h-1.5 w-1.5 rounded-full bg-good"></span>
+                <span class="text-good">view dropped</span>
+              </div>
+            </article>
+
+            <!-- Signal 02 -->
+            <article data-reveal class="group flex flex-col rounded-3xl border border-white/10 bg-panel/50 p-6 transition hover:-translate-y-1 hover:border-receipt/40">
+              <div class="flex items-center justify-between gap-3">
+                <span class="mono-label text-muted">Signal 02</span>
+                <span class="inline-flex items-center gap-2 rounded-full border border-receipt/40 bg-receipt/10 px-3 py-1 font-mono text-[10.5px] text-receipt">
+                  <span class="h-1.5 w-1.5 rounded-full bg-receipt"></span>mark_as_read
+                </span>
+              </div>
+              <h3 class="mt-5 text-lg font-bold tracking-tight">Delivered. <span class="text-gradient">Never Seen.</span></h3>
+              <p class="mt-3 text-sm leading-relaxed text-muted">
+                Open a DM and read it — take as long as you like. Their side still says Delivered, and the thread
+                stays unread for you too.
+              </p>
+              <div class="mt-5 flex flex-wrap gap-2">
+                <span class="rounded-full border border-white/10 px-2.5 py-1 font-mono text-[10px] text-muted">Instagram DMs</span>
+                <span class="rounded-full border border-white/10 px-2.5 py-1 font-mono text-[10px] text-muted">Messenger</span>
+              </div>
+              <div class="mt-6 flex items-center gap-2 border-t border-white/10 pt-4 font-mono text-[10px]">
+                <span class="h-1.5 w-1.5 rounded-full bg-amber"></span>
+                <span class="text-amber line-through decoration-amber/50">Seen 21:04</span>
+                <i data-lucide="arrow-right" class="h-3 w-3 text-muted"></i>
+                <span class="h-1.5 w-1.5 rounded-full bg-good"></span>
+                <span class="text-good">read receipt dropped</span>
+              </div>
+            </article>
+
+            <!-- Signal 03 -->
+            <article data-reveal class="group flex flex-col rounded-3xl border border-white/10 bg-panel/50 p-6 transition hover:-translate-y-1 hover:border-typing/40">
+              <div class="flex items-center justify-between gap-3">
+                <span class="mono-label text-muted">Signal 03</span>
+                <span class="inline-flex items-center gap-2 rounded-full border border-typing/40 bg-typing/10 px-3 py-1 font-mono text-[10.5px] text-typing">
+                  <span class="h-1.5 w-1.5 rounded-full bg-typing"></span>typing_indicator
+                </span>
+              </div>
+              <h3 class="mt-5 text-lg font-bold tracking-tight">Write it. Rewrite it. <span class="text-gradient">No dots.</span></h3>
+              <p class="mt-3 text-sm leading-relaxed text-muted">
+                Every keystroke can fire a write, over ordinary requests and websocket frames alike. Both routes
+                meet the same wall, so nothing bubbles up while you think.
+              </p>
+              <div class="mt-5 flex flex-wrap gap-2">
+                <span class="rounded-full border border-white/10 px-2.5 py-1 font-mono text-[10px] text-muted">Instagram typing</span>
+                <span class="rounded-full border border-white/10 px-2.5 py-1 font-mono text-[10px] text-muted">Messenger typing</span>
+              </div>
+              <div class="mt-6 flex items-center gap-2 border-t border-white/10 pt-4 font-mono text-[10px]">
+                <span class="h-1.5 w-1.5 rounded-full bg-amber"></span>
+                <span class="text-amber">typing…</span>
+                <i data-lucide="arrow-right" class="h-3 w-3 text-muted"></i>
+                <span class="h-1.5 w-1.5 rounded-full bg-good"></span>
+                <span class="text-good">both routes dropped</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= TELEMETRY / FEATURES ================= -->
+      <section id="features" class="relative scroll-mt-24 px-5 py-20 sm:py-24">
+        <div class="mx-auto max-w-6xl">
+          <div class="max-w-2xl" data-reveal>
+            <span class="font-mono text-[11px] uppercase tracking-[0.22em] text-shield">Interactive telemetry</span>
+            <h2 class="mt-4 text-3xl font-extrabold tracking-tightest sm:text-4xl">
+              Watch the requests die <span class="text-gradient">inside the sandbox.</span>
+            </h2>
+            <p class="mt-4 text-muted">
+              Three live artifacts from the extension's own filtering pipeline: the intercepted payloads, the
+              running block counter, and the ghost chat your contacts actually see.
+            </p>
+          </div>
+
+          <div class="mt-12 grid gap-6 lg:grid-cols-12">
+            <!-- Artifact 1 — Interceptor terminal -->
+            <div class="lg:col-span-7">
+              <div class="term" data-terminal>
+                <div class="flex items-center gap-3 border-b border-white/10 px-4 py-3">
+                  <span class="flex gap-1.5" aria-hidden="true">
+                    <span class="h-2.5 w-2.5 rounded-full bg-[#ff5f57]"></span>
+                    <span class="h-2.5 w-2.5 rounded-full bg-[#febc2e]"></span>
+                    <span class="h-2.5 w-2.5 rounded-full bg-[#28c840]"></span>
+                  </span>
+                  <span class="font-mono text-[11px] text-muted">DevTools &rsaquo; Network &rsaquo; Stay Unseen filter</span>
+                  <span class="ml-auto inline-flex items-center gap-1.5 rounded-full border border-typing/30 bg-typing/10 px-2 py-0.5 font-mono text-[10px] text-typing">
+                    <span class="h-1.5 w-1.5 animate-pulse rounded-full bg-typing"></span> LIVE
+                  </span>
+                </div>
+
+                <div class="term-scroll hidden grid-cols-[58px_74px_1fr] gap-x-3 border-b border-white/10 px-4 py-2 font-mono text-[10px] uppercase tracking-wider text-muted/70 sm:grid">
+                  <span>Method</span><span>Status</span><span>Endpoint</span>
+                </div>
+
+                <div data-term-log class="term-scroll h-[336px] overflow-y-auto px-3 py-2 font-mono text-[11.5px] leading-relaxed sm:px-4" aria-label="Simulated intercepted network requests"></div>
+
+                <div class="flex flex-wrap items-center gap-x-5 gap-y-1 border-t border-white/10 px-4 py-3 font-mono text-[10.5px] text-muted">
+                  <span>DROPPED <span data-term-blocked class="text-typing">0</span></span>
+                  <span>ALLOWED <span data-term-passed class="text-muted">0</span></span>
+                  <span class="ml-auto hidden sm:inline">200 OK spoofed &middot; body <span class="text-story">{"data":{},"status":"ok"}</span></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Artifact 2 — Live packet counter -->
+            <div class="lg:col-span-5">
+              <div class="flex h-full flex-col rounded-3xl border border-white/10 bg-panel/60 p-6 shadow-card" data-counter-card>
+                <div class="flex items-center justify-between">
+                  <span class="font-mono text-[11px] uppercase tracking-[0.2em] text-muted">Packet counter</span>
+                  <i data-lucide="activity" class="h-4 w-4 text-typing"></i>
+                </div>
+
+                <div class="mt-5 flex items-baseline gap-3">
+                  <span class="font-mono text-5xl font-bold tracking-tight text-ink" data-count-to="847" data-count-duration="1.6">0</span>
+                  <span class="text-sm text-muted">blocked total</span>
+                </div>
+
+                <div class="mt-6 space-y-4">
+                  <div data-count-row>
+                    <div class="flex items-center justify-between text-sm">
+                      <span class="flex items-center gap-2 text-muted"><span class="h-2 w-2 rounded-full bg-story"></span>Story &amp; reel views</span>
+                      <span class="font-mono text-ink" data-count-to="421">0</span>
+                    </div>
+                    <div class="mt-2 h-1.5 overflow-hidden rounded-full bg-white/5">
+                      <span class="block h-full rounded-full bg-story" data-count-bar data-count-to-bar="50" style="width: 0%"></span>
+                    </div>
+                  </div>
+                  <div data-count-row>
+                    <div class="flex items-center justify-between text-sm">
+                      <span class="flex items-center gap-2 text-muted"><span class="h-2 w-2 rounded-full bg-receipt"></span>Read receipts</span>
+                      <span class="font-mono text-ink" data-count-to="328">0</span>
+                    </div>
+                    <div class="mt-2 h-1.5 overflow-hidden rounded-full bg-white/5">
+                      <span class="block h-full rounded-full bg-receipt" data-count-bar data-count-to-bar="39" style="width: 0%"></span>
+                    </div>
+                  </div>
+                  <div data-count-row>
+                    <div class="flex items-center justify-between text-sm">
+                      <span class="flex items-center gap-2 text-muted"><span class="h-2 w-2 rounded-full bg-typing"></span>Typing indicators</span>
+                      <span class="font-mono text-ink" data-count-to="98">0</span>
+                    </div>
+                    <div class="mt-2 h-1.5 overflow-hidden rounded-full bg-white/5">
+                      <span class="block h-full rounded-full bg-typing" data-count-bar data-count-to-bar="11" style="width: 0%"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mt-auto flex items-center gap-2 pt-6 font-mono text-[10.5px] text-muted">
+                  <span class="su-status pulse inline-block"></span>
+                  counting on this device only &middot; <span data-counter-tick>847</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Artifact 3 — Ghost simulator -->
+            <div class="lg:col-span-12">
+              <div class="rounded-3xl border border-white/10 bg-panel/40 p-5 shadow-card sm:p-7" data-ghost>
+                <div class="flex flex-wrap items-center justify-between gap-3">
+                  <div>
+                    <span class="font-mono text-[11px] uppercase tracking-[0.2em] text-muted">Ghost simulator</span>
+                    <h3 class="mt-2 text-xl font-bold tracking-tight">Same conversation, two realities</h3>
+                  </div>
+                  <div class="flex items-center gap-1 rounded-xl border border-white/10 bg-deep/60 p-1 font-mono text-[10px]">
+                    <span class="rounded-lg bg-white/10 px-2.5 py-1 text-ink">1:1 with Lena</span>
+                    <span class="px-2.5 py-1 text-muted">encrypted</span>
+                  </div>
+                </div>
+
+                <div class="mt-6 grid gap-5 lg:grid-cols-2">
+                  <!-- What you see -->
+                  <div class="rounded-2xl border border-story/25 bg-deep/50 p-4">
+                    <div class="mb-4 flex items-center gap-2 font-mono text-[11px] uppercase tracking-wider text-story">
+                      <i data-lucide="eye" class="h-3.5 w-3.5"></i> What you see
+                    </div>
+                    <div class="space-y-3">
+                      <div class="flex items-end gap-2">
+                        <img src="assets/faces/lena.jpg" alt="Lena" class="h-7 w-7 rounded-full object-cover ring-1 ring-white/10" />
+                        <div class="chat-bubble rounded-bl-md border border-white/10 bg-panel text-ink">Are you around? Sent the mockups 👀</div>
+                      </div>
+                      <div class="flex flex-col items-end gap-1">
+                        <div class="chat-bubble rounded-br-md bg-shield text-white">Just looked them over — love it</div>
+                        <span class="pr-1 font-mono text-[9.5px] text-muted">Delivered · <span class="text-receipt">Seen 21:04</span></span>
+                      </div>
+                      <div class="flex items-end gap-2">
+                        <img src="assets/faces/lena.jpg" alt="Lena" class="h-7 w-7 rounded-full object-cover ring-1 ring-white/10" />
+                        <div class="chat-bubble rounded-bl-md border border-white/10 bg-panel text-muted">
+                          <span class="typing-dots"><i></i><i></i><i></i></span>
+                          <span class="ml-1 text-[11px] text-typing">typing…</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- What they see -->
+                  <div class="rounded-2xl border border-typing/25 bg-deep/50 p-4">
+                    <div class="mb-4 flex items-center gap-2 font-mono text-[11px] uppercase tracking-wider text-typing">
+                      <i data-lucide="user-x" class="h-3.5 w-3.5"></i> What they see
+                    </div>
+                    <div class="space-y-3">
+                      <div class="flex items-end gap-2">
+                        <img src="assets/faces/lena.jpg" alt="Lena" class="h-7 w-7 rounded-full object-cover ring-1 ring-white/10" />
+                        <div class="chat-bubble rounded-bl-md border border-white/10 bg-panel text-ink">Are you around? Sent the mockups 👀</div>
+                      </div>
+                      <div class="flex flex-col items-end gap-1">
+                        <div class="chat-bubble rounded-br-md bg-shield/70 text-white">Just looked them over — love it</div>
+                        <span class="pr-1 font-mono text-[9.5px] text-muted">Delivered · <span class="line-through opacity-60">Seen</span> <span class="text-typing">never sent</span></span>
+                      </div>
+                      <div class="flex items-end gap-2">
+                        <img src="assets/faces/lena.jpg" alt="Lena" class="h-7 w-7 rounded-full object-cover ring-1 ring-white/10" />
+                        <div class="chat-bubble rounded-bl-md border border-dashed border-white/10 bg-panel/40 text-muted/70 italic">
+                          no typing bubble — indicator suppressed
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <p class="mt-5 font-mono text-[11px] text-muted">
+                  The thread still renders for you. The receipts, views and keystroke state are filtered before
+                  they reach Meta's edge.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= ARCHITECTURE ================= -->
+      <section id="architecture" class="relative scroll-mt-24 overflow-hidden px-5 py-20 sm:py-28">
+        <div class="glow-spot left-1/2 top-0 h-[24rem] w-[36rem] -translate-x-1/2 bg-shield/10" aria-hidden="true"></div>
+        <div class="relative z-10 mx-auto max-w-6xl">
+          <div class="max-w-2xl" data-reveal>
+            <span class="font-mono text-[11px] uppercase tracking-[0.22em] text-steel">Under the hood</span>
+            <h2 class="mt-4 text-3xl font-extrabold tracking-tightest sm:text-4xl">
+              Two layers, <span class="text-gradient">because one is not enough.</span>
+            </h2>
+            <p class="mt-4 text-muted">
+              Some signals are their own request, so the browser can refuse them outright. Others hide inside a
+              batched call or a websocket frame, where a URL rule cannot see them — those are caught in the page
+              instead.
+            </p>
+          </div>
+
+          <!-- Two-layer packet diagram -->
+          <div data-reveal class="mt-12 rounded-3xl border border-white/10 bg-void/60 p-5 shadow-card sm:p-8">
+            <div class="flex flex-wrap items-center gap-x-5 gap-y-2 font-mono text-[10.5px] text-muted">
+              <span class="inline-flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-story"></span>story_seen</span>
+              <span class="inline-flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-receipt"></span>mark_as_read</span>
+              <span class="inline-flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-typing"></span>typing</span>
+              <span class="inline-flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-good"></span>passed through</span>
+              <span class="ml-auto hidden sm:inline">amber = left the machine</span>
+            </div>
+
+            <div class="relative mt-9 hidden items-center gap-3 sm:flex sm:gap-5">
+              <!-- the page -->
+              <div class="node-box relative z-10 hidden w-[180px] shrink-0 p-4 sm:block">
+                <p class="mono-label text-steel">The page</p>
+                <div class="mt-3 space-y-2 font-mono text-[10.5px] text-muted">
+                  <div class="rounded-lg border border-white/10 px-2.5 py-1.5">instagram.com</div>
+                  <div class="rounded-lg border border-white/10 px-2.5 py-1.5">facebook.com</div>
+                  <div class="rounded-lg border border-white/10 px-2.5 py-1.5">messenger.com</div>
+                </div>
+                <p class="mt-3 text-[11px] text-muted/80">tries to report what you did</p>
+              </div>
+
+              <!-- the lane -->
+              <div class="lane relative h-56 flex-1">
+                <div class="lane-track top-1/2"></div>
+                <div class="membrane m1 left-[34%]" aria-hidden="true"></div>
+                <div class="membrane m2 left-[64%]" aria-hidden="true"></div>
+                <span class="wall-badge absolute -top-1 left-[34%] -translate-x-1/2 text-steel">01</span>
+                <span class="wall-badge absolute -top-1 left-[64%] -translate-x-1/2 text-lav">02</span>
+
+                <span class="pkt t-story die-w1" style="--pkt-y: 8%; --pkt-at: 10%; animation-delay: 0.2s">story_seen</span>
+                <span class="pkt t-read die-w1" style="--pkt-y: 30%; --pkt-at: 14%; animation-delay: 1.6s">mark_as_read</span>
+                <span class="pkt t-typing die-w2" style="--pkt-y: 54%; --pkt-at: 20%; animation-delay: 0.9s">graphql · typing</span>
+                <span class="pkt t-typing die-w2" style="--pkt-y: 76%; --pkt-at: 26%; animation-delay: 2.8s">ws.send · typing</span>
+                <span class="pkt t-story die-w1" style="--pkt-y: 92%; --pkt-at: 6%; animation-delay: 3.4s">seen_state</span>
+                <span class="pkt t-good pass" style="--pkt-y: 42%; --pkt-at: 64%; animation-delay: 2s">send_message</span>
+              </div>
+
+              <!-- their servers -->
+              <div class="node-box relative z-10 hidden w-[180px] shrink-0 border-good/30 p-4 sm:block">
+                <p class="mono-label text-good">Their servers</p>
+                <p class="mt-3 text-[11px] text-muted/80">only ever hear about things you chose to do</p>
+              </div>
+            </div>
+
+            <!-- mobile verdict list (the animated lane needs room) -->
+            <div class="mt-6 space-y-2.5 sm:hidden">
+              <div class="flex items-center justify-between gap-3 rounded-2xl border border-white/10 bg-panel/40 px-4 py-3">
+                <span class="inline-flex items-center gap-2 font-mono text-[11px] text-story"><span class="h-1.5 w-1.5 rounded-full bg-story"></span>story_seen</span>
+                <span class="font-mono text-[10px] text-good">dropped · L1</span>
+              </div>
+              <div class="flex items-center justify-between gap-3 rounded-2xl border border-white/10 bg-panel/40 px-4 py-3">
+                <span class="inline-flex items-center gap-2 font-mono text-[11px] text-receipt"><span class="h-1.5 w-1.5 rounded-full bg-receipt"></span>mark_as_read</span>
+                <span class="font-mono text-[10px] text-good">dropped · L1</span>
+              </div>
+              <div class="flex items-center justify-between gap-3 rounded-2xl border border-white/10 bg-panel/40 px-4 py-3">
+                <span class="inline-flex items-center gap-2 font-mono text-[11px] text-typing"><span class="h-1.5 w-1.5 rounded-full bg-typing"></span>graphql · typing</span>
+                <span class="font-mono text-[10px] text-good">dropped · L2</span>
+              </div>
+              <div class="flex items-center justify-between gap-3 rounded-2xl border border-white/10 bg-panel/40 px-4 py-3">
+                <span class="inline-flex items-center gap-2 font-mono text-[11px] text-typing"><span class="h-1.5 w-1.5 rounded-full bg-typing"></span>ws.send · typing</span>
+                <span class="font-mono text-[10px] text-good">dropped · L2</span>
+              </div>
+              <div class="flex items-center justify-between gap-3 rounded-2xl border border-good/30 bg-good/10 px-4 py-3">
+                <span class="inline-flex items-center gap-2 font-mono text-[11px] text-good"><span class="h-1.5 w-1.5 rounded-full bg-good"></span>send_message</span>
+                <span class="font-mono text-[10px] text-good">passed through</span>
+              </div>
+            </div>
+
+            <!-- layer detail -->
+            <div class="mt-8 grid gap-4 sm:grid-cols-2">
+              <div class="rounded-2xl border border-steel/25 bg-steel/[0.05] p-4">
+                <p class="mono-label text-steel">Layer 01 · network</p>
+                <p class="mt-2 font-mono text-sm text-ink">declarativeNetRequest</p>
+                <p class="mt-1.5 text-xs leading-relaxed text-muted">
+                  The browser enforces the rule itself, so the matching request is never made — nothing leaves
+                  the machine.
+                </p>
+              </div>
+              <div class="rounded-2xl border border-lav/25 bg-lav/[0.05] p-4">
+                <p class="mono-label text-lav">Layer 02 · in the page</p>
+                <p class="mt-2 font-mono text-sm text-ink">fetch · XHR · WebSocket.send</p>
+                <p class="mt-1.5 text-xs leading-relaxed text-muted">
+                  Runs at document start, before the site's own code, and catches what is buried inside a
+                  batched call or a socket frame.
+                </p>
+              </div>
+            </div>
+
+            <p class="mt-6 flex items-start gap-2 text-sm text-muted">
+              <i data-lucide="git-branch" class="mt-0.5 h-4 w-4 shrink-0 text-good"></i>
+              <span><span class="font-semibold text-ink">Passed through:</span> your own messages, likes and replies are on neither list — they walk straight through both walls.</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PRIVACY ================= -->
+      <section id="privacy" class="scroll-mt-24 px-5 py-20 sm:py-24">
+        <div class="mx-auto grid max-w-6xl gap-10 lg:grid-cols-2 lg:gap-14">
+          <div data-reveal>
+            <span class="font-mono text-[11px] uppercase tracking-[0.22em] text-good">Privacy</span>
+            <h2 class="mt-4 text-3xl font-extrabold tracking-tightest sm:text-4xl">
+              Your browsing stays <span class="text-gradient">private by design.</span>
+            </h2>
+            <p class="mt-4 text-muted">
+              Protection runs in your browser. Settings, counters and redacted diagnostics stay local. If you
+              activate Pro, the licence service receives only your key and installation identifiers—not your
+              messages, browsing history or social content.
+            </p>
+
+            <!-- route that ends in nothing -->
+            <div class="mt-8 rounded-3xl border border-white/10 bg-panel/40 p-5">
+              <div class="flex items-center gap-4">
+                <span class="inline-flex shrink-0 items-center gap-2 rounded-xl border border-good/30 bg-good/10 px-3 py-2 text-sm font-semibold text-ink">
+                  <i data-lucide="lock" class="h-4 w-4 text-good"></i>your machine
+                </span>
+                <span class="h-px flex-1 border-t border-dashed border-white/20"></span>
+                <span class="flex shrink-0 flex-col items-center gap-2">
+                  <span class="grid h-16 w-16 place-items-center rounded-2xl border-2 border-dashed border-white/15 bg-void">
+                    <i data-lucide="key-round" class="h-6 w-6 text-muted"></i>
+                  </span>
+                  <span class="mono-label text-muted">licence check only</span>
+                </span>
+              </div>
+              <span class="mt-4 inline-flex rounded-full border border-white/10 px-3 py-1 font-mono text-[10px] text-muted">no browsing content transmitted</span>
+            </div>
+
+            <!-- kept locally -->
+            <div class="mt-8">
+              <p class="mono-label text-steel">Kept on your device</p>
+              <ul class="mt-4 space-y-2.5 text-sm text-muted">
+                <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-good"></i>your feature and site settings</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-good"></i>a blocked count per feature</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-good"></i>a short local log, message text removed</li>
+              </ul>
+            </div>
+          </div>
+
+          <div data-reveal>
+            <p class="mono-label text-muted">What it never does</p>
+            <ul class="mt-4 space-y-3">
+              <li class="flex items-start gap-4 rounded-2xl border border-white/10 bg-gradient-to-br from-panel/70 to-deep p-4">
+                <i data-lucide="x" class="mt-0.5 h-5 w-5 shrink-0 text-muted"></i>
+                <span><span class="block text-sm font-semibold text-ink">No social account sign-in</span><span class="mt-1 block text-sm text-muted">Core protection works immediately.</span></span>
+              </li>
+              <li class="flex items-start gap-4 rounded-2xl border border-white/10 bg-gradient-to-br from-panel/70 to-deep p-4">
+                <i data-lucide="x" class="mt-0.5 h-5 w-5 shrink-0 text-muted"></i>
+                <span><span class="block text-sm font-semibold text-ink">No analytics or telemetry</span><span class="mt-1 block text-sm text-muted">Nothing is counted anywhere but here.</span></span>
+              </li>
+              <li class="flex items-start gap-4 rounded-2xl border border-white/10 bg-gradient-to-br from-panel/70 to-deep p-4">
+                <i data-lucide="x" class="mt-0.5 h-5 w-5 shrink-0 text-muted"></i>
+                <span><span class="block text-sm font-semibold text-ink">No remote code</span><span class="mt-1 block text-sm text-muted">Every pattern ships inside the package.</span></span>
+              </li>
+              <li class="flex items-start gap-4 rounded-2xl border border-white/10 bg-gradient-to-br from-panel/70 to-deep p-4">
+                <i data-lucide="x" class="mt-0.5 h-5 w-5 shrink-0 text-muted"></i>
+                <span><span class="block text-sm font-semibold text-ink">No browsing-history collection</span><span class="mt-1 block text-sm text-muted">Access is limited to the supported web apps.</span></span>
+              </li>
+              <li class="flex items-start gap-4 rounded-2xl border border-white/10 bg-gradient-to-br from-panel/70 to-deep p-4">
+                <i data-lucide="x" class="mt-0.5 h-5 w-5 shrink-0 text-muted"></i>
+                <span><span class="block text-sm font-semibold text-ink">Nothing sold or used for advertising</span><span class="mt-1 block text-sm text-muted">Licence data is used only to validate Pro access.</span></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= LIMITS ================= -->
+      <section id="limits" class="relative scroll-mt-24 overflow-hidden px-5 py-20 sm:py-24">
+        <div class="glow-spot right-[-6rem] top-8 h-[20rem] w-[20rem] bg-amber/10" aria-hidden="true"></div>
+        <div class="relative z-10 mx-auto max-w-6xl">
+          <div class="max-w-2xl" data-reveal>
+            <span class="font-mono text-[11px] uppercase tracking-[0.22em] text-amber">Before you install</span>
+            <h2 class="mt-4 text-3xl font-extrabold tracking-tightest sm:text-4xl">What it <span class="text-gradient">cannot</span> do.</h2>
+            <p class="mt-4 text-muted">
+              The film spends most of its time making claims, so here is the part most products leave out.
+            </p>
+          </div>
+
+          <div class="mt-10 grid gap-4 lg:grid-cols-3">
+            <article data-reveal class="rounded-3xl border border-white/10 bg-gradient-to-br from-panel/70 to-deep p-6">
+              <span class="font-mono text-[11px] tracking-[0.24em] text-amber">01</span>
+              <h3 class="mt-4 text-lg font-bold tracking-tight">Sending still notifies</h3>
+              <p class="mt-3 text-sm leading-relaxed text-muted">A message, reaction or story reply is something you chose to send. The other person is told.</p>
+            </article>
+            <article data-reveal class="rounded-3xl border border-white/10 bg-gradient-to-br from-panel/70 to-deep p-6">
+              <span class="font-mono text-[11px] tracking-[0.24em] text-amber">02</span>
+              <h3 class="mt-4 text-lg font-bold tracking-tight">Online status is untouched</h3>
+              <p class="mt-3 text-sm leading-relaxed text-muted">It does not hide your active indicator. That is a different thing, and this is not it.</p>
+            </article>
+            <article data-reveal class="rounded-3xl border border-white/10 bg-gradient-to-br from-panel/70 to-deep p-6">
+              <span class="font-mono text-[11px] tracking-[0.24em] text-amber">03</span>
+              <h3 class="mt-4 text-lg font-bold tracking-tight">The past stays reported</h3>
+              <p class="mt-3 text-sm leading-relaxed text-muted">Views already sent before you installed it cannot be withdrawn by anyone.</p>
+            </article>
+          </div>
+
+          <p data-reveal class="mt-8 font-mono text-[11px] text-muted">
+            An independent project — not affiliated with or endorsed by Meta. <span class="text-good">Everything else, it holds.</span>
+          </p>
+        </div>
+      </section>
+
+      <!-- ================= CONTROL MATRIX ================= -->
+      <section id="controls" class="scroll-mt-24 px-5 py-20 sm:py-24">
+        <div class="mx-auto max-w-6xl">
+          <div class="max-w-2xl" data-reveal>
+            <span class="font-mono text-[11px] uppercase tracking-[0.22em] text-shield">Control matrix</span>
+            <h2 class="mt-4 text-3xl font-extrabold tracking-tightest sm:text-4xl">
+              Core protections start on. <span class="text-gradient">Every signal stays under your control.</span>
+            </h2>
+            <p class="mt-4 text-muted">
+              Each supported signal has a clear control and the core protections start enabled. Flip one off and
+              that signal behaves normally again straight away: no reload,
+              no restart. Flip it back and it stops. Instagram, Facebook and Messenger are free; the WhatsApp Web
+              and Threads cards unlock with Lifetime Pro. The last row is cosmetic only.
+            </p>
+          </div>
+
+          <div class="mt-10 grid gap-4 lg:grid-cols-2">
+            <!-- Instagram -->
+            <div class="rounded-3xl border border-white/10 bg-panel/50 p-5 sm:p-6" data-reveal>
+              <div class="flex items-center gap-2 border-b border-white/10 pb-4">
+                <i data-lucide="instagram" class="h-4 w-4 text-receipt"></i>
+                <h3 class="text-sm font-bold tracking-tight">Instagram</h3>
+                <span class="ml-auto font-mono text-[10px] text-muted">3 modules</span>
+              </div>
+              <div class="divide-y divide-white/5">
+                <div class="flex items-center gap-4 py-4" data-matrix-row>
+                  <div class="min-w-0 flex-1">
+                    <p class="text-sm font-semibold text-ink">DM read receipts</p>
+                    <p class="mt-0.5 text-xs text-muted">Blocks <code class="font-mono text-[10.5px] text-muted">/direct_v2/.../seen/</code></p>
+                  </div>
+                  <span class="hidden font-mono text-[10px] text-typing sm:inline" data-matrix-status>ENFORCING</span>
+                  <button type="button" class="tgl tgl-lg tgl-violet" role="switch" aria-checked="true" aria-label="Instagram DM read receipts" data-matrix-toggle></button>
+                </div>
+                <div class="flex items-center gap-4 py-4" data-matrix-row>
+                  <div class="min-w-0 flex-1">
+                    <p class="text-sm font-semibold text-ink">Story &amp; reel views</p>
+                    <p class="mt-0.5 text-xs text-muted">Neutralises <code class="font-mono text-[10.5px] text-muted">StoriesV3SeenMutation</code></p>
+                  </div>
+                  <span class="hidden font-mono text-[10px] text-typing sm:inline" data-matrix-status>ENFORCING</span>
+                  <button type="button" class="tgl tgl-lg tgl-cyan" role="switch" aria-checked="true" aria-label="Instagram story and reel views" data-matrix-toggle></button>
+                </div>
+                <div class="flex items-center gap-4 py-4" data-matrix-row>
+                  <div class="min-w-0 flex-1">
+                    <p class="text-sm font-semibold text-ink">Typing indicators</p>
+                    <p class="mt-0.5 text-xs text-muted">Drops <code class="font-mono text-[10.5px] text-muted">broadcast/typing</code> frames</p>
+                  </div>
+                  <span class="hidden font-mono text-[10px] text-typing sm:inline" data-matrix-status>ENFORCING</span>
+                  <button type="button" class="tgl tgl-lg tgl-mint" role="switch" aria-checked="true" aria-label="Instagram typing indicators" data-matrix-toggle></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Facebook + Messenger -->
+            <div class="rounded-3xl border border-white/10 bg-panel/50 p-5 sm:p-6" data-reveal>
+              <div class="flex items-center gap-2 border-b border-white/10 pb-4">
+                <i data-lucide="message-circle" class="h-4 w-4 text-story"></i>
+                <h3 class="text-sm font-bold tracking-tight">Facebook &amp; Messenger</h3>
+                <span class="ml-auto font-mono text-[10px] text-muted">3 modules</span>
+              </div>
+              <div class="divide-y divide-white/5">
+                <div class="flex items-center gap-4 py-4" data-matrix-row>
+                  <div class="min-w-0 flex-1">
+                    <p class="text-sm font-semibold text-ink">Messenger seen</p>
+                    <p class="mt-0.5 text-xs text-muted">Blocks <code class="font-mono text-[10.5px] text-muted">change_read_status</code></p>
+                  </div>
+                  <span class="hidden font-mono text-[10px] text-typing sm:inline" data-matrix-status>ENFORCING</span>
+                  <button type="button" class="tgl tgl-lg tgl-violet" role="switch" aria-checked="true" aria-label="Messenger read receipts" data-matrix-toggle></button>
+                </div>
+                <div class="flex items-center gap-4 py-4" data-matrix-row>
+                  <div class="min-w-0 flex-1">
+                    <p class="text-sm font-semibold text-ink">Facebook story views</p>
+                    <p class="mt-0.5 text-xs text-muted">Cancels <code class="font-mono text-[10.5px] text-muted">mark_story_seen</code></p>
+                  </div>
+                  <span class="hidden font-mono text-[10px] text-typing sm:inline" data-matrix-status>ENFORCING</span>
+                  <button type="button" class="tgl tgl-lg tgl-cyan" role="switch" aria-checked="true" aria-label="Facebook story views" data-matrix-toggle></button>
+                </div>
+                <div class="flex items-center gap-4 py-4" data-matrix-row>
+                  <div class="min-w-0 flex-1">
+                    <p class="text-sm font-semibold text-ink">Messenger typing</p>
+                    <p class="mt-0.5 text-xs text-muted">Strips <code class="font-mono text-[10.5px] text-muted">orca_typing_notifications</code></p>
+                  </div>
+                  <span class="hidden font-mono text-[10px] text-typing sm:inline" data-matrix-status>ENFORCING</span>
+                  <button type="button" class="tgl tgl-lg tgl-mint" role="switch" aria-checked="true" aria-label="Messenger typing indicators" data-matrix-toggle></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- WhatsApp Web -->
+            <div class="rounded-3xl border border-white/10 bg-panel/50 p-5 sm:p-6" data-reveal>
+              <div class="flex items-center gap-2 border-b border-white/10 pb-4">
+                <i data-lucide="phone" class="h-4 w-4 text-good"></i>
+                <h3 class="text-sm font-bold tracking-tight">WhatsApp Web</h3>
+                <span class="pro-chip ml-auto">Pro</span>
+                <span class="font-mono text-[10px] text-muted">3 modules</span>
+              </div>
+              <div class="divide-y divide-white/5">
+                <div class="flex items-center gap-4 py-4" data-matrix-row>
+                  <div class="min-w-0 flex-1">
+                    <p class="text-sm font-semibold text-ink">Blue ticks</p>
+                    <p class="mt-0.5 text-xs text-muted">Holds <code class="font-mono text-[10.5px] text-muted">sendSeen</code> and <code class="font-mono text-[10.5px] text-muted">sendChatSeen</code></p>
+                  </div>
+                  <span class="hidden font-mono text-[10px] text-typing sm:inline" data-matrix-status>ENFORCING</span>
+                  <button type="button" class="tgl tgl-lg tgl-violet" role="switch" aria-checked="true" aria-label="WhatsApp Web blue ticks" data-matrix-toggle></button>
+                </div>
+                <div class="flex items-center gap-4 py-4" data-matrix-row>
+                  <div class="min-w-0 flex-1">
+                    <p class="text-sm font-semibold text-ink">Typing &amp; recording</p>
+                    <p class="mt-0.5 text-xs text-muted">Drops <code class="font-mono text-[10.5px] text-muted">sendChatState*</code> frames</p>
+                  </div>
+                  <span class="hidden font-mono text-[10px] text-typing sm:inline" data-matrix-status>ENFORCING</span>
+                  <button type="button" class="tgl tgl-lg tgl-mint" role="switch" aria-checked="true" aria-label="WhatsApp Web typing and recording" data-matrix-toggle></button>
+                </div>
+                <div class="flex items-center gap-4 py-4" data-matrix-row>
+                  <div class="min-w-0 flex-1">
+                    <p class="text-sm font-semibold text-ink">Status views</p>
+                    <p class="mt-0.5 text-xs text-muted">Cancels <code class="font-mono text-[10.5px] text-muted">markStatusRead</code></p>
+                  </div>
+                  <span class="hidden font-mono text-[10px] text-typing sm:inline" data-matrix-status>ENFORCING</span>
+                  <button type="button" class="tgl tgl-lg tgl-cyan" role="switch" aria-checked="true" aria-label="WhatsApp Web status views" data-matrix-toggle></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Threads -->
+            <div class="rounded-3xl border border-white/10 bg-panel/50 p-5 sm:p-6" data-reveal>
+              <div class="flex items-center gap-2 border-b border-white/10 pb-4">
+                <i data-lucide="at-sign" class="h-4 w-4 text-lav"></i>
+                <h3 class="text-sm font-bold tracking-tight">Threads</h3>
+                <span class="pro-chip ml-auto">Pro</span>
+                <span class="font-mono text-[10px] text-muted">2 modules</span>
+              </div>
+              <div class="divide-y divide-white/5">
+                <div class="flex items-center gap-4 py-4" data-matrix-row>
+                  <div class="min-w-0 flex-1">
+                    <p class="text-sm font-semibold text-ink">Presence &amp; seen status</p>
+                    <p class="mt-0.5 text-xs text-muted">Cancels <code class="font-mono text-[10.5px] text-muted">mark_seen</code> and <code class="font-mono text-[10.5px] text-muted">/presence</code> writes</p>
+                  </div>
+                  <span class="hidden font-mono text-[10px] text-typing sm:inline" data-matrix-status>ENFORCING</span>
+                  <button type="button" class="tgl tgl-lg tgl-violet" role="switch" aria-checked="true" aria-label="Threads presence and seen status" data-matrix-toggle></button>
+                </div>
+                <div class="flex items-center gap-4 py-4" data-matrix-row>
+                  <div class="min-w-0 flex-1">
+                    <p class="text-sm font-semibold text-ink">Typing indicator</p>
+                    <p class="mt-0.5 text-xs text-muted">Drops <code class="font-mono text-[10.5px] text-muted">indicate_activity</code></p>
+                  </div>
+                  <span class="hidden font-mono text-[10px] text-typing sm:inline" data-matrix-status>ENFORCING</span>
+                  <button type="button" class="tgl tgl-lg tgl-mint" role="switch" aria-checked="true" aria-label="Threads typing indicator" data-matrix-toggle></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Display module -->
+          <div data-reveal class="mt-4 flex flex-wrap items-center gap-4 rounded-3xl border border-white/10 bg-panel/50 p-5 sm:p-6">
+            <span class="grid h-10 w-10 place-items-center rounded-2xl border border-white/10 bg-deep/60">
+              <i data-lucide="eye-off" class="h-4 w-4 text-shield"></i>
+            </span>
+            <div class="min-w-0 flex-1">
+              <p class="text-sm font-semibold text-ink">Keep unread markers</p>
+              <p class="mt-0.5 text-xs text-muted">Keeps inbox rows visually unread so your UI never hints that a thread was opened.</p>
+            </div>
+            <span class="hidden font-mono text-[10px] text-typing sm:inline" data-matrix-status>ENFORCING</span>
+            <button type="button" class="tgl tgl-lg tgl-indigo" role="switch" aria-checked="true" aria-label="Keep unread markers" data-matrix-toggle></button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PRO TOOLS ================= -->
+      <section id="protools" class="relative scroll-mt-24 overflow-hidden px-5 py-20 sm:py-24">
+        <div class="glow-spot right-[-7rem] top-8 h-[22rem] w-[22rem] bg-shield/15" aria-hidden="true"></div>
+        <div class="relative z-10 mx-auto max-w-6xl">
+          <div class="max-w-2xl" data-reveal>
+            <span class="font-mono text-[11px] uppercase tracking-[0.22em] text-shield">Lifetime Pro tools</span>
+            <h2 class="mt-4 text-3xl font-extrabold tracking-tightest sm:text-4xl">
+              Save the media. <span class="text-gradient">See who follows back.</span>
+            </h2>
+            <p class="mt-4 text-muted">
+              The protections above keep you invisible. The Pro tools work on top of the page you already have open:
+              media downloads, an Instagram follower badge, Mark Seen and the floating status pill. Each control
+              appears on the thing it acts on and stays inside the tab that is showing it.
+            </p>
+          </div>
+
+          <div class="mt-10 grid gap-6 lg:grid-cols-12">
+            <!-- Media downloader -->
+            <div class="lg:col-span-7" data-reveal>
+              <div class="flex h-full flex-col rounded-3xl border border-white/10 bg-panel/60 p-5 shadow-card sm:p-7">
+                <div class="flex flex-wrap items-center justify-between gap-3">
+                  <div class="flex items-center gap-2.5">
+                    <span class="grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-white/10 bg-deep/60 text-shield">
+                      <i data-lucide="download" class="h-4 w-4"></i>
+                    </span>
+                    <h3 class="text-lg font-bold tracking-tight">Media downloader</h3>
+                  </div>
+                  <span class="pro-chip">Pro</span>
+                </div>
+
+                <p class="mt-4 text-sm text-muted">
+                  A save control appears on the media you are already watching — the reel or feed video, the story
+                  slide, the voice note. Nothing is fetched twice and nothing is re-encoded: you get the stream the
+                  player has open, at the quality it is streaming.
+                </p>
+
+                <div class="pro-frame mt-5" aria-hidden="true">
+                  <div class="pro-shot">
+                    <span class="pro-shot-glow"></span>
+                    <span class="pro-shot-play"><i data-lucide="play" class="h-5 w-5"></i></span>
+                    <span class="pro-tag">Reel &middot; 00:24</span>
+                    <span class="pro-meta">1080 &times; 1920 &middot; h264 &middot; 24 fps</span>
+                    <span class="pro-dl pro-dl-float"><i data-lucide="download" class="h-3.5 w-3.5"></i>Video</span>
+                  </div>
+                  <div class="pro-bar">
+                    <span class="su-status pulse inline-block"></span>
+                    <span class="font-mono text-[10.5px] text-muted">story viewer</span>
+                    <span class="pro-dl"><i data-lucide="download" class="h-3.5 w-3.5"></i>Download Media</span>
+                  </div>
+                </div>
+
+                <ul class="mt-5 space-y-3 text-sm text-muted">
+                  <li class="flex gap-2.5">
+                    <i data-lucide="check" class="h-4 w-4 shrink-0 text-good"></i>
+                    <span><b class="font-semibold text-ink">Reels and post videos</b> save as MP4, including the reels whose audio and video arrive as separate streams.</span>
+                  </li>
+                  <li class="flex gap-2.5">
+                    <i data-lucide="check" class="h-4 w-4 shrink-0 text-good"></i>
+                    <span><b class="font-semibold text-ink">Story slides</b> save as MP4 or JPG — the slide on screen, not the first one in the tray.</span>
+                  </li>
+                  <li class="flex gap-2.5">
+                    <i data-lucide="check" class="h-4 w-4 shrink-0 text-good"></i>
+                    <span><b class="font-semibold text-ink">Voice notes</b> save as audio from the chat or story playing them.</span>
+                  </li>
+                </ul>
+
+                <p class="mt-auto pt-6 font-mono text-[10.5px] text-muted">
+                  Instagram, Facebook and Messenger &middot; one item at a time, the one on screen
+                </p>
+              </div>
+            </div>
+
+            <!-- Instagram follow status -->
+            <div class="lg:col-span-5" data-reveal>
+              <div class="flex h-full flex-col rounded-3xl border border-white/10 bg-panel/60 p-5 shadow-card sm:p-7">
+                <div class="flex flex-wrap items-center justify-between gap-3">
+                  <div class="flex items-center gap-2.5">
+                    <span class="grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-white/10 bg-deep/60 text-shield">
+                      <i data-lucide="user-check" class="h-4 w-4"></i>
+                    </span>
+                    <h3 class="text-lg font-bold tracking-tight">Instagram follow status</h3>
+                  </div>
+                  <span class="pro-chip">Pro</span>
+                </div>
+
+                <p class="mt-4 text-sm text-muted">
+                  Open a profile and a badge says where you stand with that account. The answer comes from the
+                  relationship the page has already loaded — you do not have to open their followers list and hunt
+                  for your own name.
+                </p>
+
+                <div class="mt-5 space-y-3">
+                  <div class="follow-row">
+                    <img src="assets/faces/lena.jpg" alt="Lena" class="h-9 w-9 shrink-0 rounded-full object-cover ring-1 ring-white/10" />
+                    <span class="min-w-0 flex-1">
+                      <span class="block text-sm font-semibold text-ink">&#64;lena</span>
+                      <span class="block font-mono text-[10.5px] text-muted">4.1k followers</span>
+                    </span>
+                    <span class="follow-badge yes"><i data-lucide="user-check" class="h-3.5 w-3.5"></i>Follows you</span>
+                  </div>
+                  <div class="follow-row">
+                    <img src="assets/faces/karl.jpg" alt="Karl" class="h-9 w-9 shrink-0 rounded-full object-cover ring-1 ring-white/10" />
+                    <span class="min-w-0 flex-1">
+                      <span class="block text-sm font-semibold text-ink">&#64;karl</span>
+                      <span class="block font-mono text-[10.5px] text-muted">812 followers</span>
+                    </span>
+                    <span class="follow-badge no">Doesn&#8217;t follow you</span>
+                  </div>
+                  <div class="follow-row">
+                    <img src="assets/faces/mia.jpg" alt="Mia" class="h-9 w-9 shrink-0 rounded-full object-cover ring-1 ring-white/10" />
+                    <span class="min-w-0 flex-1">
+                      <span class="block text-sm font-semibold text-ink">&#64;mia</span>
+                      <span class="block font-mono text-[10.5px] text-muted">private account</span>
+                    </span>
+                    <span class="follow-badge unknown">Unknown</span>
+                  </div>
+                </div>
+
+                <div class="mt-5 rounded-2xl border border-white/10 bg-deep/50 p-4">
+                  <p class="font-mono text-[10px] uppercase tracking-[0.16em] text-muted">No trace either way</p>
+                  <p class="mt-1.5 text-xs text-muted">
+                    Opening a profile to check is ordinary browsing: nothing is posted, no notification is raised,
+                    and the account you looked at is not told that you checked.
+                  </p>
+                </div>
+
+                <p class="mt-auto pt-6 font-mono text-[10.5px] text-muted">
+                  Three answers, never a guess &middot; a refused lookup reads unknown, not &ldquo;no&rdquo;
+                </p>
+              </div>
+            </div>
+
+            <!-- On-page tools -->
+            <div class="lg:col-span-12" data-reveal>
+              <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                <div class="rounded-3xl border border-white/10 bg-panel/50 p-5">
+                  <span class="grid h-9 w-9 place-items-center rounded-xl border border-white/10 bg-deep/60 text-shield">
+                    <i data-lucide="badge-check" class="h-4 w-4"></i>
+                  </span>
+                  <h3 class="mt-4 text-sm font-bold tracking-tight">Mark Seen</h3>
+                  <p class="mt-2 text-xs text-muted">
+                    Turn one conversation read on purpose. The receipt is sent for the chat in front of you, once,
+                    instead of leaking from every thread you open.
+                  </p>
+                </div>
+                <div class="rounded-3xl border border-white/10 bg-panel/50 p-5">
+                  <span class="grid h-9 w-9 place-items-center rounded-xl border border-white/10 bg-deep/60 text-shield">
+                    <i data-lucide="activity" class="h-4 w-4"></i>
+                  </span>
+                  <h3 class="mt-4 text-sm font-bold tracking-tight">Floating status pill</h3>
+                  <p class="mt-2 text-xs text-muted">
+                    A small Stay Unseen pill rides along on supported pages, so you can tell at a glance that
+                    filtering is live rather than guessing from the site's own chrome.
+                  </p>
+                </div>
+                <div class="rounded-3xl border border-white/10 bg-panel/50 p-5">
+                  <span class="grid h-9 w-9 place-items-center rounded-xl border border-white/10 bg-deep/60 text-shield">
+                    <i data-lucide="timer" class="h-4 w-4"></i>
+                  </span>
+                  <h3 class="mt-4 text-sm font-bold tracking-tight">Timed pause</h3>
+                  <p class="mt-2 text-xs text-muted">
+                    Stand down for 15 minutes, an hour or a day when you do want to be seen. The countdown is
+                    visible and protection returns on its own.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PLANS ================= -->
+      <section id="plans" class="scroll-mt-24 px-5 py-20 sm:py-24">
+        <div class="mx-auto max-w-6xl">
+          <div class="max-w-2xl" data-reveal>
+            <span class="font-mono text-[11px] uppercase tracking-[0.22em] text-shield">Simple plans</span>
+            <h2 class="mt-4 text-3xl font-extrabold tracking-tightest sm:text-4xl">Start free. <span class="text-gradient">Upgrade once.</span></h2>
+            <p class="mt-4 text-muted">The core protections remain free. Lifetime Pro adds more supported apps and tools with one payment and no recurring subscription.</p>
+          </div>
+          <div class="plan-grid mt-10" data-reveal>
+            <article class="plan-card">
+              <p class="plan-kicker">Free core</p><h3 class="plan-title">Everyday protection</h3>
+              <p class="plan-price flex items-baseline gap-2"><span class="text-3xl font-extrabold text-ink">$0</span> <span class="text-xs text-muted">free to install · forever</span></p>
+              <p class="plan-copy">The essentials for Meta messaging and stories in supported desktop browsers.</p>
+              <ul class="plan-list"><li>Instagram privacy controls</li><li>Facebook and Messenger protection</li><li>Keep unread markers, local counters and redacted diagnostics</li></ul>
+              <a class="plan-action" href="#install">Choose your browser</a>
+            </article>
+            <article class="plan-card featured">
+              <p class="plan-kicker">Lifetime Pro</p><h3 class="plan-title">More apps, more tools</h3>
+              <p class="plan-price flex items-baseline gap-2"><span class="text-3xl font-extrabold text-ink">$9.99</span> <span class="text-xs text-muted">one-time payment · no subscription</span></p>
+              <p class="plan-copy">Unlock WhatsApp Web, Threads and the on-page tools on up to three devices.</p>
+              <ul class="plan-list"><li>Everything in the free core</li><li>WhatsApp Web and Threads support</li><li>Reel, post, story and voice-note downloads</li><li>Instagram follow status, Mark Seen and the status pill</li><li>Timed pause, per-chat privacy and the activity telemetry</li></ul>
+              <a class="plan-action" href="https://hyperstrivelabs.lemonsqueezy.com/checkout/buy/cc66e59b-852b-4ff9-aa59-b85b5ba9203b" target="_blank" rel="noopener noreferrer">Get Lifetime Pro — $9.99</a>
+            </article>
+          </div>
+          <div class="trust-strip"><span>NO SUBSCRIPTION</span><span>UP TO 3 DEVICES</span><span>LOCAL-FIRST</span><span>CHROME · EDGE · FIREFOX</span></div>
+        </div>
+      </section>
+
+      <!-- ================= FAQ ================= -->
+      <section id="faq" class="scroll-mt-24 px-5 py-20 sm:py-24">
+        <div class="mx-auto max-w-6xl">
+          <div class="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-14">
+            <!-- intro + quick links (sticky on desktop) -->
+            <div data-reveal class="lg:sticky lg:top-28 lg:self-start">
+              <span class="font-mono text-[11px] uppercase tracking-[0.22em] text-shield">FAQ</span>
+              <h2 class="mt-4 text-3xl font-extrabold tracking-tightest sm:text-4xl">
+                Questions, <span class="text-gradient">answered plainly.</span>
+              </h2>
+              <p class="mt-4 max-w-md text-muted">
+                The things people ask before installing. If something is missing, these go deeper:
+              </p>
+
+              <div class="mt-7 space-y-2.5">
+                <a href="tutorial.html" class="group flex items-center gap-3 rounded-2xl border border-white/10 bg-panel/50 p-3.5 transition hover:border-white/25 hover:bg-panel">
+                  <span class="grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-white/10 bg-deep/60 text-muted transition group-hover:text-lav"><i data-lucide="play" class="h-4 w-4"></i></span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block text-sm font-semibold text-ink">Watch the tutorial</span>
+                    <span class="block text-xs text-muted">Set up in about a minute</span>
+                  </span>
+                  <i data-lucide="arrow-up-right" class="h-4 w-4 shrink-0 text-muted transition group-hover:text-ink"></i>
+                </a>
+                <a href="privacy.html" class="group flex items-center gap-3 rounded-2xl border border-white/10 bg-panel/50 p-3.5 transition hover:border-white/25 hover:bg-panel">
+                  <span class="grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-white/10 bg-deep/60 text-muted transition group-hover:text-lav"><i data-lucide="lock" class="h-4 w-4"></i></span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block text-sm font-semibold text-ink">Privacy policy</span>
+                    <span class="block text-xs text-muted">Every field it stores</span>
+                  </span>
+                  <i data-lucide="arrow-up-right" class="h-4 w-4 shrink-0 text-muted transition group-hover:text-ink"></i>
+                </a>
+                <a href="changelog.html" class="group flex items-center gap-3 rounded-2xl border border-white/10 bg-panel/50 p-3.5 transition hover:border-white/25 hover:bg-panel">
+                  <span class="grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-white/10 bg-deep/60 text-muted transition group-hover:text-lav"><i data-lucide="file-text" class="h-4 w-4"></i></span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block text-sm font-semibold text-ink">Changelog</span>
+                    <span class="block text-xs text-muted">What changed in 1.4.26</span>
+                  </span>
+                  <i data-lucide="arrow-up-right" class="h-4 w-4 shrink-0 text-muted transition group-hover:text-ink"></i>
+                </a>
+                <a href="#protools" class="group flex items-center gap-3 rounded-2xl border border-white/10 bg-panel/50 p-3.5 transition hover:border-white/25 hover:bg-panel">
+                  <span class="grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-white/10 bg-deep/60 text-muted transition group-hover:text-lav"><i data-lucide="download" class="h-4 w-4"></i></span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block text-sm font-semibold text-ink">Pro tools</span>
+                    <span class="block text-xs text-muted">Downloads, follow status, Mark Seen</span>
+                  </span>
+                  <i data-lucide="arrow-up-right" class="h-4 w-4 shrink-0 text-muted transition group-hover:text-ink"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- accordion -->
+            <div data-reveal class="divide-y divide-white/10 overflow-hidden rounded-3xl border border-white/10 bg-panel/40">
+              <details class="faq" open>
+                <summary class="flex cursor-pointer items-start gap-4 px-5 py-5 sm:px-6">
+                  <span class="faq-ico grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-white/10 bg-deep/60 text-muted"><i data-lucide="gift" class="h-4 w-4"></i></span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block font-mono text-[10px] uppercase tracking-[0.16em] text-steel">Basics</span>
+                    <span class="mt-1 block text-base font-semibold text-ink">Is Stay Unseen free?</span>
+                  </span>
+                  <i data-lucide="plus" class="faq-plus mt-1.5 h-5 w-5 shrink-0 text-muted"></i>
+                </summary>
+                <div class="faq-answer max-w-2xl px-5 pb-5 sm:pl-20 sm:pr-6">
+                  <p class="text-sm leading-relaxed text-muted">
+                    The core Instagram, Facebook and Messenger protections are free. Lifetime Pro is a one-time
+                    purchase that unlocks WhatsApp Web, Threads and the on-page tools — media downloads, the
+                    Instagram follow status badge, Mark Seen, the status pill, timed pause and the activity
+                    telemetry — on up to three devices. There is no subscription.
+                  </p>
+                </div>
+              </details>
+
+              <details class="faq">
+                <summary class="flex cursor-pointer items-start gap-4 px-5 py-5 sm:px-6">
+                  <span class="faq-ico grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-white/10 bg-deep/60 text-muted"><i data-lucide="download" class="h-4 w-4"></i></span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block font-mono text-[10px] uppercase tracking-[0.16em] text-steel">Pro tools</span>
+                    <span class="mt-1 block text-base font-semibold text-ink">Can I save reels, posts and stories with it?</span>
+                  </span>
+                  <i data-lucide="plus" class="faq-plus mt-1.5 h-5 w-5 shrink-0 text-muted"></i>
+                </summary>
+                <div class="faq-answer max-w-2xl px-5 pb-5 sm:pl-20 sm:pr-6">
+                  <p class="text-sm leading-relaxed text-muted">
+                    Yes, with Lifetime Pro. A save control appears on the reel, post video, story slide or voice note
+                    you are already watching, and the file lands in your browser's usual Downloads at the quality the
+                    player is streaming — nothing is re-encoded. In a story it resolves the slide actually on screen
+                    rather than the first one in the tray. It saves the single item in front of you: there is no bulk
+                    profile export and nothing is crawled.
+                  </p>
+                </div>
+              </details>
+
+              <details class="faq">
+                <summary class="flex cursor-pointer items-start gap-4 px-5 py-5 sm:px-6">
+                  <span class="faq-ico grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-white/10 bg-deep/60 text-muted"><i data-lucide="user-check" class="h-4 w-4"></i></span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block font-mono text-[10px] uppercase tracking-[0.16em] text-steel">Pro tools</span>
+                    <span class="mt-1 block text-base font-semibold text-ink">How does the Instagram follow status badge work?</span>
+                  </span>
+                  <i data-lucide="plus" class="faq-plus mt-1.5 h-5 w-5 shrink-0 text-muted"></i>
+                </summary>
+                <div class="faq-answer max-w-2xl px-5 pb-5 sm:pl-20 sm:pr-6">
+                  <p class="text-sm leading-relaxed text-muted">
+                    Open a profile and the badge reports the relationship that page already loaded in your own
+                    session: following you back, not following you, or your own profile. It reads what your logged-in
+                    browser can already see rather than crawling followers. If the lookup is refused, the badge says
+                    unknown instead of claiming that someone does not follow you.
+                  </p>
+                </div>
+              </details>
+
+              <details class="faq">
+                <summary class="flex cursor-pointer items-start gap-4 px-5 py-5 sm:px-6">
+                  <span class="faq-ico grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-white/10 bg-deep/60 text-muted"><i data-lucide="smartphone" class="h-4 w-4"></i></span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block font-mono text-[10px] uppercase tracking-[0.16em] text-story">Compatibility</span>
+                    <span class="mt-1 block text-base font-semibold text-ink">Does it work in the Instagram or Facebook mobile app?</span>
+                  </span>
+                  <i data-lucide="plus" class="faq-plus mt-1.5 h-5 w-5 shrink-0 text-muted"></i>
+                </summary>
+                <div class="faq-answer max-w-2xl px-5 pb-5 sm:pl-20 sm:pr-6">
+                  <p class="text-sm leading-relaxed text-muted">
+                    No. Stay Unseen works on supported websites opened in Chrome, Edge and Firefox. It cannot
+                    reach native iOS or Android apps.
+                  </p>
+                </div>
+              </details>
+
+              <details class="faq">
+                <summary class="flex cursor-pointer items-start gap-4 px-5 py-5 sm:px-6">
+                  <span class="faq-ico grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-white/10 bg-deep/60 text-muted"><i data-lucide="shield-alert" class="h-4 w-4"></i></span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block font-mono text-[10px] uppercase tracking-[0.16em] text-amber">Trust</span>
+                    <span class="mt-1 block text-base font-semibold text-ink">Will it get my account blocked or banned?</span>
+                  </span>
+                  <i data-lucide="plus" class="faq-plus mt-1.5 h-5 w-5 shrink-0 text-muted"></i>
+                </summary>
+                <div class="faq-answer max-w-2xl px-5 pb-5 sm:pl-20 sm:pr-6">
+                  <p class="text-sm leading-relaxed text-muted">
+                    Stay Unseen does not log in for you, automate anything, or scrape your account. It filters
+                    specific outgoing reports inside your own browser — the same category of tool as a content
+                    blocker — and it never adds anything to what you send. The download tools save the media your
+                    browser is already playing, one item at a time.
+                  </p>
+                </div>
+              </details>
+
+              <details class="faq">
+                <summary class="flex cursor-pointer items-start gap-4 px-5 py-5 sm:px-6">
+                  <span class="faq-ico grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-white/10 bg-deep/60 text-muted"><i data-lucide="gauge" class="h-4 w-4"></i></span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block font-mono text-[10px] uppercase tracking-[0.16em] text-typing">Performance</span>
+                    <span class="mt-1 block text-base font-semibold text-ink">Does it slow the sites down?</span>
+                  </span>
+                  <i data-lucide="plus" class="faq-plus mt-1.5 h-5 w-5 shrink-0 text-muted"></i>
+                </summary>
+                <div class="faq-answer max-w-2xl px-5 pb-5 sm:pl-20 sm:pr-6">
+                  <p class="text-sm leading-relaxed text-muted">
+                    No. It cancels those requests before they are made, so there is slightly <em>less</em> network
+                    work than usual, not more. The panel and its counters are local, so there is nothing extra to
+                    fetch.
+                  </p>
+                </div>
+              </details>
+
+              <details class="faq">
+                <summary class="flex cursor-pointer items-start gap-4 px-5 py-5 sm:px-6">
+                  <span class="faq-ico grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-white/10 bg-deep/60 text-muted"><i data-lucide="sliders-horizontal" class="h-4 w-4"></i></span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block font-mono text-[10px] uppercase tracking-[0.16em] text-steel">Basics</span>
+                    <span class="mt-1 block text-base font-semibold text-ink">Do I have to configure anything?</span>
+                  </span>
+                  <i data-lucide="plus" class="faq-plus mt-1.5 h-5 w-5 shrink-0 text-muted"></i>
+                </summary>
+                <div class="faq-answer max-w-2xl px-5 pb-5 sm:pl-20 sm:pr-6">
+                  <p class="text-sm leading-relaxed text-muted">
+                    No. Core protection starts with sensible defaults. Open the panel only when you want to
+                    change a site or feature, inspect counters, or activate Lifetime Pro.
+                  </p>
+                </div>
+              </details>
+
+              <details class="faq">
+                <summary class="flex cursor-pointer items-start gap-4 px-5 py-5 sm:px-6">
+                  <span class="faq-ico grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-white/10 bg-deep/60 text-muted"><i data-lucide="hard-drive" class="h-4 w-4"></i></span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block font-mono text-[10px] uppercase tracking-[0.16em] text-receipt">Privacy</span>
+                    <span class="mt-1 block text-base font-semibold text-ink">What does it store, and does any of it leave my machine?</span>
+                  </span>
+                  <i data-lucide="plus" class="faq-plus mt-1.5 h-5 w-5 shrink-0 text-muted"></i>
+                </summary>
+                <div class="faq-answer max-w-2xl px-5 pb-5 sm:pl-20 sm:pr-6">
+                  <p class="text-sm leading-relaxed text-muted">
+                    It keeps your switches, a blocked count per feature, and a short local log with message text
+                    removed. Browsing content stays local. Pro activation sends only the licence key and installation
+                    identifiers to the licence service. The <a class="text-lav underline decoration-lav/40 underline-offset-2 transition hover:text-ink" href="privacy.html">privacy policy</a> lists every field.
+                  </p>
+                </div>
+              </details>
+
+              <details class="faq">
+                <summary class="flex cursor-pointer items-start gap-4 px-5 py-5 sm:px-6">
+                  <span class="faq-ico grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-white/10 bg-deep/60 text-muted"><i data-lucide="eye-off" class="h-4 w-4"></i></span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block font-mono text-[10px] uppercase tracking-[0.16em] text-lav">Honesty</span>
+                    <span class="mt-1 block text-base font-semibold text-ink">Does it hide my online or active status?</span>
+                  </span>
+                  <i data-lucide="plus" class="faq-plus mt-1.5 h-5 w-5 shrink-0 text-muted"></i>
+                </summary>
+                <div class="faq-answer max-w-2xl px-5 pb-5 sm:pl-20 sm:pr-6">
+                  <p class="text-sm leading-relaxed text-muted">
+                    No. It hides story and reel views, read receipts and typing indicators. Your active indicator
+                    is a different thing and is left untouched — see
+                    <a class="text-lav underline decoration-lav/40 underline-offset-2 transition hover:text-ink" href="#limits">what it cannot do</a>.
+                  </p>
+                </div>
+              </details>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= INSTALL ================= -->
+      <section id="install" class="scroll-mt-24 px-5 py-20 sm:py-24">
+        <div class="mx-auto max-w-6xl">
+          <div class="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end" data-reveal>
+            <div class="max-w-2xl">
+              <span class="font-mono text-[11px] uppercase tracking-[0.22em] text-shield">Installation</span>
+              <h2 class="mt-4 text-3xl font-extrabold tracking-tightest sm:text-4xl">Running in about a minute.</h2>
+              <p class="mt-4 text-muted">
+                Add it from your browser's own store. Core protection is free; WhatsApp Web, Threads and Pro tools
+                are included with the one-time Lifetime Pro upgrade.
+              </p>
+            </div>
+            <span class="inline-flex items-center gap-2 rounded-full border border-typing/30 bg-typing/10 px-3 py-1.5 font-mono text-[11px] text-typing">
+              <span class="h-1.5 w-1.5 animate-pulse rounded-full bg-typing"></span> current release v1.4.26
+            </span>
+          </div>
+
+          <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <a
+              data-reveal
+              href="https://chromewebstore.google.com/detail/stay-unseen-ig-fb-seen-bl/bfbajdhcgbnclhljgbcjficphhedlkje"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group flex flex-col rounded-3xl border border-white/10 bg-panel/50 p-6 transition hover:-translate-y-1 hover:border-white/25"
+            >
+              <div class="flex items-center justify-between">
+                <img src="assets/Google_Chrome_icon_(February_2022).svg" alt="Google Chrome" class="h-9 w-9" loading="lazy" decoding="async" />
+                <span class="rounded-full border border-white/10 px-2.5 py-1 font-mono text-[10px] text-muted">v1.4.26</span>
+              </div>
+              <h3 class="mt-6 text-lg font-bold tracking-tight">Chrome Web Store</h3>
+              <p class="mt-2 text-sm text-muted">Manifest V3 · also Brave, Vivaldi, Opera.</p>
+              <span class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-shield">
+                Add to Chrome <i data-lucide="arrow-up-right" class="h-4 w-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5"></i>
+              </span>
+            </a>
+
+            <a
+              data-reveal
+              href="https://addons.mozilla.org/en-US/firefox/addon/stay-unseen-ig-fb-seen-blocker/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group flex flex-col rounded-3xl border border-white/10 bg-panel/50 p-6 transition hover:-translate-y-1 hover:border-white/25"
+            >
+              <div class="flex items-center justify-between">
+                <img src="assets/firefox-browser-icon.svg" alt="Mozilla Firefox" class="h-9 w-9" loading="lazy" decoding="async" />
+                <span class="rounded-full border border-white/10 px-2.5 py-1 font-mono text-[10px] text-muted">v1.4.26</span>
+              </div>
+              <h3 class="mt-6 text-lg font-bold tracking-tight">Firefox Add-ons</h3>
+              <p class="mt-2 text-sm text-muted">webRequest blocking · also Zen, Waterfox.</p>
+              <span class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-violet">
+                Add to Firefox <i data-lucide="arrow-up-right" class="h-4 w-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5"></i>
+              </span>
+            </a>
+
+            <a
+              data-reveal
+              href="https://microsoftedge.microsoft.com/addons/detail/stay-unseen-ig-fb-see/fnlnnfoeafbpbjgkkiihhkfncjhombai"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group flex flex-col rounded-3xl border border-white/10 bg-panel/50 p-6 transition hover:-translate-y-1 hover:border-white/25 sm:col-span-2 lg:col-span-1"
+            >
+              <div class="flex items-center justify-between">
+                <img src="assets/microsoft_edge-icon.svg" alt="Microsoft Edge" class="h-9 w-9" loading="lazy" decoding="async" />
+                <span class="rounded-full border border-white/10 px-2.5 py-1 font-mono text-[10px] text-muted">v1.4.26</span>
+              </div>
+              <h3 class="mt-6 text-lg font-bold tracking-tight">Edge Add-ons</h3>
+              <p class="mt-2 text-sm text-muted">Same engine · Microsoft Edge.</p>
+              <span class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-story">
+                Add to Edge <i data-lucide="arrow-up-right" class="h-4 w-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5"></i>
+              </span>
+            </a>
+          </div>
+
+          <!-- three steps -->
+          <div class="mt-6 grid gap-5 rounded-3xl border border-white/10 bg-panel/40 p-5 sm:grid-cols-3 sm:p-6" data-reveal>
+            <div class="flex items-start gap-4">
+              <span class="font-mono text-[11px] tracking-[0.18em] text-lav">01</span>
+              <span>
+                <span class="block text-sm font-semibold text-ink">Add it</span>
+                <span class="mt-1 block text-sm text-muted">Review the supported-site permissions, then confirm.</span>
+              </span>
+            </div>
+            <div class="flex items-start gap-4">
+              <span class="font-mono text-[11px] tracking-[0.18em] text-lav">02</span>
+              <span>
+                <span class="block text-sm font-semibold text-ink">Pin the icon</span>
+                <span class="mt-1 block text-sm text-muted">So the counters are one click away.</span>
+              </span>
+            </div>
+            <div class="flex items-start gap-4">
+              <span class="font-mono text-[11px] tracking-[0.18em] text-lav">03</span>
+              <span>
+                <span class="block text-sm font-semibold text-ink">Reload the tab</span>
+                <span class="mt-1 block text-sm text-muted">The page patch installs at document start.</span>
+              </span>
+            </div>
+          </div>
+
+          <p class="mt-6 text-center text-sm text-muted" data-reveal>
+            Prefer to watch it first?
+            <a class="font-semibold text-shield transition hover:text-ink" href="tutorial.html">Watch the tutorial →</a>
+          </p>
+        </div>
+      </section>
+      <!-- ================= CLOSING CTA ================= -->
+      <section class="relative overflow-hidden px-5 py-24 sm:py-28">
+        <div class="glow-spot left-1/2 top-1/2 h-[24rem] w-[34rem] -translate-x-1/2 -translate-y-1/2 bg-indigo/30" aria-hidden="true"></div>
+        <div class="relative z-10 mx-auto flex max-w-3xl flex-col items-center text-center" data-reveal>
+          <img src="assets/icon128.png" alt="" class="h-16 w-16 rounded-2xl ring-1 ring-white/10" loading="lazy" decoding="async" />
+          <h2 class="mt-7 inline-block text-4xl font-extrabold tracking-tightest sm:text-5xl">
+            <span class="wordmark">Look first. Stay unseen.</span>
+          </h2>
+          <div class="ramp-bar mt-7 w-full max-w-md"></div>
+          <p class="mt-7 max-w-xl text-muted">
+            One extension, clear controls, nothing to run — on Chrome, Edge and Firefox at
+            <span class="font-mono text-ink">stayunseen.bond</span>.
+          </p>
+          <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
+            <a
+              href="#install"
+              data-browser-cta
+              class="magnetic group inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-shield to-violet px-5 py-3.5 text-sm font-semibold text-white shadow-[0_0_0_1px_rgba(129,140,248,.5)] transition-shadow hover:shadow-glow"
+            >
+              <i data-lucide="shield-check" class="h-4 w-4"></i>
+              <span data-browser-label>Add to Chrome</span>
+            </a>
+            <a
+              href="#architecture"
+              class="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-panel/40 px-5 py-3.5 text-sm font-semibold text-ink transition hover:border-white/25"
+            >
+              <i data-lucide="workflow" class="h-4 w-4"></i>See how it works
+            </a>
+          </div>
+          <p class="mt-8 font-mono text-[10.5px] uppercase tracking-[0.18em] text-muted">
+            v1.4.26 · local-first · no analytics · no browsing content transmitted
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer id="site-footer" class="border-t border-white/10 bg-deep/60 px-5 py-10">
+      <div class="mx-auto max-w-6xl space-y-2 text-center font-mono text-[10.5px] text-muted">
+        <p>Stay Unseen v1.4.26 · local-first · no analytics · no browsing content transmitted</p>
+        <p>
+          <a class="transition hover:text-ink" href="privacy.html">Privacy policy</a>
+          · Independent project, not affiliated with Meta Platforms, Instagram, Facebook, or Microsoft
+        </p>
+        <p>
+          Made by
+          <a class="transition hover:text-ink" href="https://mheadows.bond/" target="_blank" rel="noopener noreferrer">Mheadows</a>
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"
+      integrity="sha384-g4NTh/Iv5PPU4xPyhEWqPcwtNXOvdaDI8LLnyYfyNZOjKJeYQyjzQ9X5275eBjpt"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"
+      integrity="sha384-Z3REaz79l2IaAZqJsSABtTbhjgOUYyV3p90XNnAPCSHg3EMTz1fouunq9WZRtj3d"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/lucide@0.468.0/dist/umd/lucide.min.js"
+      integrity="sha384-uTYyvsSSUZeaPhb5RbKlQa0zY/WpX/QHfvg2mczXyBQOpkWPEDy9lczyp+w7SKXu"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>
