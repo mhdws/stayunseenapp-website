@@ -1,21 +1,21 @@
 :root {
-  --su-charcoal: #343b45;
-  --su-deep: #161b22;
-  --su-panel: #202731;
-  --su-steel: #617691;
-  --su-blue: #6b8aa7;
-  --su-indigo: #405687;
-  --su-lavender: #646d97;
-  --su-ink: #f3f6fa;
-  --su-muted: #abb7c6;
+  --su-charcoal: #182258;
+  --su-deep: #0c1033;
+  --su-panel: #121844;
+  --su-steel: #5e78c8;
+  --su-blue: #238dff;
+  --su-indigo: #4934d4;
+  --su-lavender: #a94cff;
+  --su-ink: #f5f7ff;
+  --su-muted: #9ba8cc;
 }
 
 html { color-scheme: dark; }
 body {
   background:
-    radial-gradient(900px 620px at 8% -10%, rgba(97,118,145,.24), transparent 62%),
-    radial-gradient(760px 560px at 100% 12%, rgba(64,86,135,.2), transparent 66%),
-    #11161c !important;
+    radial-gradient(900px 620px at 8% -10%, rgba(73,52,212,.24), transparent 62%),
+    radial-gradient(760px 560px at 100% 12%, rgba(22,217,255,.15), transparent 66%),
+    #07091e !important;
 }
 .bg-grid {
   opacity: .28;
