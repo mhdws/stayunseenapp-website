@@ -1,250 +1,213 @@
 <!doctype html>
 <html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Stay Unseen Tutorial — Install, Protect &amp; Activate Pro</title>
-    <meta
-      name="description"
-      content="Install Stay Unseen, enable local privacy controls and optionally activate Lifetime Pro for WhatsApp Web, Threads and Pro tools."
-    />
-    <meta
-      name="keywords"
-      content="stay unseen tutorial, install seen blocker, how to hide instagram seen, set up facebook seen blocker, hide read receipts tutorial, hide story views, instagram typing indicator, chrome extension setup, firefox addon setup"
-    />
-    <meta name="theme-color" content="#12161f" />
-    <link rel="canonical" href="https://stayunseen.bond/tutorial.html" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Stay Unseen Tutorial — Install, Protect &amp; Activate Pro" />
-    <meta property="og:description" content="Install Stay Unseen, enable protection and optionally activate Lifetime Pro." />
-    <meta property="og:url" content="https://stayunseen.bond/tutorial.html" />
-    <meta property="og:image" content="https://stayunseen.bond/assets/tutorial-poster.jpg" />
-    <meta property="og:image:width" content="1920" />
-    <meta property="og:image:height" content="1080" />
-    <meta property="og:image:alt" content="Stay Unseen setup tutorial" />
-    <meta property="og:site_name" content="Stay Unseen" />
-    <meta property="og:locale" content="en_US" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Stay Unseen Tutorial — Install, Protect &amp; Activate Pro" />
-    <meta name="twitter:description" content="Install Stay Unseen, enable protection and optionally activate Lifetime Pro." />
-    <meta name="twitter:image" content="https://stayunseen.bond/assets/tutorial-poster.jpg" />
-    <meta name="robots" content="index,follow,max-image-preview:large" />
-    <meta name="author" content="Mheadows" />
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://stayunseen.bond/sitemap.xml" />
-    <link rel="icon" href="assets/icon128.png" />
-    <script>
-      document.documentElement.classList.add("js");
-    </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800&family=JetBrains+Mono:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/tailwind.css" />
-    <link rel="stylesheet" href="assets/app.css" />
-    <link rel="stylesheet" href="assets/release.css" />
-
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "HowTo",
-            "@id": "https://stayunseen.bond/tutorial.html#howto",
-            "name": "How to set up Stay Unseen",
-            "description": "Install Stay Unseen, pin the icon and reload the tab to start blocking seen receipts, story views and typing indicators.",
-            "totalTime": "PT1M",
-            "step": [
-              { "@type": "HowToStep", "name": "Install", "text": "Install Stay Unseen from your browser's own store." },
-              { "@type": "HowToStep", "name": "Pin", "text": "Pin the Stay Unseen icon to the toolbar." },
-              { "@type": "HowToStep", "name": "Reload", "text": "Reload the Instagram, Facebook or Messenger tab." }
-            ]
-          },
-          {
-            "@type": "VideoObject",
-            "@id": "https://stayunseen.bond/tutorial.html#video",
-            "name": "Stay Unseen setup tutorial",
-            "description": "A one-minute walkthrough of installing Stay Unseen and turning protection on.",
-            "thumbnailUrl": "https://i.ytimg.com/vi/vQQiaikKLr4/hqdefault.jpg",
-            "uploadDate": "2026-09-12",
-            "url": "https://www.youtube.com/watch?v=vQQiaikKLr4",
-            "embedUrl": "https://www.youtube.com/embed/vQQiaikKLr4",
-            "contentUrl": "https://www.youtube.com/watch?v=vQQiaikKLr4",
-            "publisher": { "@type": "Person", "name": "Mheadows", "url": "https://mheadows.bond/" }
-          },
-          {
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://stayunseen.bond/" },
-              { "@type": "ListItem", "position": 2, "name": "Tutorial", "item": "https://stayunseen.bond/tutorial.html" }
-            ]
-          }
-        ]
-      }
-    </script>
-  </head>
-
-  <body class="relative bg-surface font-sans text-ink antialiased selection:bg-shield/40 selection:text-white">
-    <a
-      href="#main"
-      class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-xl focus:bg-panel focus:px-4 focus:py-2 focus:text-sm focus:text-ink"
-      >Skip to content</a
-    >
-
-    <div class="bg-grid" aria-hidden="true"></div>
-    <div class="bg-noise" aria-hidden="true"></div>
-
-    <!-- ================= NAVBAR ================= -->
-    <header class="fixed inset-x-0 top-0 z-50 px-3 pt-3 sm:px-6 sm:pt-4">
-      <nav
-        data-nav
-        class="mx-auto flex max-w-6xl items-center justify-between gap-3 rounded-2xl border border-white/10 bg-deep/80 px-3 py-2.5 backdrop-blur-md transition-shadow duration-300 sm:px-4"
-      >
-        <a href="index.html" class="flex min-w-0 items-center gap-2.5 rounded-xl">
-          <img src="assets/icon128.png" alt="Stay Unseen shield" class="h-9 w-9 shrink-0 rounded-xl object-cover ring-1 ring-white/10" width="36" height="36" />
-          <span class="flex min-w-0 flex-col leading-none">
-            <span class="truncate text-[15px] font-bold tracking-tightest">Stay Unseen</span>
-            <span
-              class="nav-status mt-1 hidden min-w-0 items-center gap-1.5 font-mono text-[10px] text-muted sm:flex"
-              title="Instagram · Facebook · Messenger · WhatsApp · Threads"
-            >
-              <span class="su-status pulse inline-block shrink-0"></span>
-              <span class="nav-status-text">Instagram · Facebook · Messenger · WhatsApp · Threads</span>
-            </span>
-          </span>
-        </a>
-
-        <div class="hidden shrink-0 items-center gap-1 lg:flex">
-          <a class="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-white/5 hover:text-ink" href="index.html#features">Features</a>
-          <a class="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-white/5 hover:text-ink" href="index.html#protools">Pro tools</a>
-          <a class="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-white/5 hover:text-ink" href="index.html#architecture">Architecture</a>
-          <a class="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-white/5 hover:text-ink" href="privacy.html">Privacy</a>
-          <a class="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-white/5 hover:text-ink" href="index.html#controls">Controls</a>
-          <a class="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-white/5 hover:text-ink" href="index.html#faq">FAQ</a>
-          <a class="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-white/5 hover:text-ink" href="tutorial.html">Tutorial</a>
-          <a class="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-white/5 hover:text-ink" href="index.html#install">Install</a>
-        </div>
-
-        <a
-          href="https://hyperstrivelabs.lemonsqueezy.com/checkout/buy/cc66e59b-852b-4ff9-aa59-b85b5ba9203b"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="magnetic group inline-flex shrink-0 items-center gap-2 whitespace-nowrap rounded-xl bg-shield px-3.5 py-2 text-sm font-semibold text-white shadow-[0_0_0_1px_rgba(99,102,241,.6)] transition-shadow hover:shadow-glow sm:px-4"
-        >
-          <i data-lucide="sparkles" class="h-4 w-4"></i>
-          <span>Get Lifetime Pro</span>
-        </a>
-      </nav>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Stay Unseen 2.0.0 — Setup Guide &amp; Pro Tutorial</title>
+  <meta name="description" content="Install Stay Unseen, activate Lifetime Pro, and learn the new dashboard, status pill, Mark Seen, downloads, follow badges and privacy modes.">
+  <meta name="theme-color" content="#07091e">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="author" content="Mheadows">
+  <link rel="canonical" href="https://stayunseenapp.com/tutorial.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="sitemap" type="application/xml" href="https://stayunseenapp.com/sitemap.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Stay Unseen">
+  <meta property="og:title" content="Stay Unseen 2.0.0 — Setup Guide &amp; Pro Tutorial">
+  <meta property="og:description" content="Install Stay Unseen, activate Lifetime Pro, and learn the new dashboard, status pill, Mark Seen, downloads, follow badges and privacy modes.">
+  <meta property="og:url" content="https://stayunseenapp.com/tutorial.html">
+  <meta property="og:image" content="https://stayunseenapp.com/assets/launch-tour.webp">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:image:width" content="1920">
+  <meta property="og:image:height" content="1080">
+  <meta property="og:image:alt" content="Stay Unseen 2.0.0 Setup Guide & Pro Tutorial">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Stay Unseen 2.0.0 — Setup Guide &amp; Pro Tutorial">
+  <meta name="twitter:description" content="Install Stay Unseen, activate Lifetime Pro, and learn the new dashboard, status pill, Mark Seen, downloads, follow badges and privacy modes.">
+  <meta name="twitter:image" content="https://stayunseenapp.com/assets/launch-tour.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/v2.css">
+  <link rel="stylesheet" href="assets/docs.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://stayunseenapp.com/tutorial.html#webpage", "url": "https://stayunseenapp.com/tutorial.html", "name": "Stay Unseen 2.0.0 — Setup Guide & Pro Tutorial", "description": "Install Stay Unseen, activate Lifetime Pro, and learn the new dashboard, status pill, Mark Seen, downloads, follow badges and privacy modes.", "inLanguage": "en", "isPartOf": {"@type": "WebSite", "name": "Stay Unseen", "url": "https://stayunseenapp.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://stayunseenapp.com/"}, {"@type": "ListItem", "position": 2, "name": "Tutorial", "item": "https://stayunseenapp.com/tutorial.html"}]}]}</script>
+  <script src="assets/site.js" defer></script>
+</head>
+<body class="docs-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="navigation wrap" aria-label="Primary navigation">
+      <a class="brand" href="index.html"><img src="assets/icon128.png" width="38" height="38" alt="Stay Unseen logo"><span>Stay Unseen<small>ALL-IN-ONE SOCIAL SUITE</small></span></a>
+      <div class="nav-links" id="primary-links"><a href="index.html#features">Features</a><a href="index.html#pro">Pro <span class="nav-spark" aria-hidden="true">✦</span></a><a href="index.html#whats-new">What’s new</a><a href="tutorial.html" aria-current="page">Tutorial</a><a href="changelog.html">Changelog</a></div>
+      <a class="button small" href="index.html#install">Get extension <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-links" hidden><span></span><span></span></button>
+    </nav>
+  </header>
+  <main class="wrap docs-main" id="main">
+    <header class="doc-hero">
+      <p class="eyebrow">Setup guide / Version 2.0.0</p>
+      <h1><span class="sr-only">Stay Unseen 2.0.0 — </span>Make yourself <br><span>comfortable.</span></h1>
+      <p class="doc-lead">Start with the Free privacy controls, then set up the Pro tools you want. This guide follows version 2.0.0.</p>
+      <div class="doc-meta"><span class="tiny-pill">STAY UNSEEN 2.0.0</span><span>Updated 22 September 2026</span></div>
+      <div class="doc-actions"><a class="button" href="index.html#install">Get the extension <span aria-hidden="true">↗</span></a><a class="text-link" href="#activation">Set up Lifetime Pro <span aria-hidden="true">↓</span></a></div>
     </header>
+    <div class="doc-layout">
+      <aside class="doc-aside">
+        <p class="eyebrow">On this page</p>
+        <nav class="doc-toc" aria-label="On this page"><a href="#install">Install & get started</a><a href="#dashboard">The new dashboard</a><a href="#platforms">Features by platform</a><a href="#activation">Activate & move Pro</a><a href="#status-pill">Status pill & quick controls</a><a href="#mark-seen">Mark Seen</a><a href="#downloads">Downloads & queue</a><a href="#follow-status">Follow-status badges</a><a href="#focus">Focus & screen privacy</a><a href="#help">Troubleshooting</a><a href="#video">Video overview</a></nav>
+        <div class="doc-aside-note"><p>Need a hand with Stay Unseen?</p><a class="text-link" href="mailto:hrrpooh@gmail.com">Contact support <span aria-hidden="true">↗</span></a></div>
+      </aside>
+      <div class="doc-content">
 
-    <main id="main" class="relative z-10 px-5 pb-24 pt-32 sm:pt-40">
-      <div class="mx-auto max-w-6xl">
-        <header class="prose doc-head" data-reveal>
-          <p class="eyebrow">Tutorial</p>
-          <h1>Set it up in<span class="grad">about a minute.</span></h1>
-          <p class="updated">Stay Unseen 1.4.26 · Chrome, Edge and Firefox</p>
-        </header>
-
-        <div class="doc-grid mt-14">
-          <aside class="lg:sticky lg:top-28 lg:self-start" data-reveal>
-            <p class="toc-label">The three steps</p>
-            <ol class="mt-4 space-y-4">
-              <li class="flex gap-3">
-                <span class="font-mono text-[11px] tracking-[0.18em] text-lav">01</span>
-                <span><span class="block text-sm font-semibold text-ink">Add it</span><span class="mt-0.5 block text-xs leading-relaxed text-muted">Review the supported-site permissions.</span></span>
-              </li>
-              <li class="flex gap-3">
-                <span class="font-mono text-[11px] tracking-[0.18em] text-lav">02</span>
-                <span><span class="block text-sm font-semibold text-ink">Pin the icon</span><span class="mt-0.5 block text-xs leading-relaxed text-muted">Counters one click away.</span></span>
-              </li>
-              <li class="flex gap-3">
-                <span class="font-mono text-[11px] tracking-[0.18em] text-lav">03</span>
-                <span><span class="block text-sm font-semibold text-ink">Reload the tab</span><span class="mt-0.5 block text-xs leading-relaxed text-muted">The patch installs at document start.</span></span>
-              </li>
-            </ol>
-
-            <div class="mt-7 space-y-2.5">
-              <a href="index.html#install" class="group flex items-center gap-3 rounded-2xl border border-white/10 bg-panel/50 p-3.5 transition hover:border-white/25 hover:bg-panel">
-                <span class="grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-white/10 bg-deep/60 text-muted transition group-hover:text-lav"><i data-lucide="download" class="h-4 w-4"></i></span>
-                <span class="min-w-0 flex-1">
-                  <span class="block text-sm font-semibold text-ink">Install</span>
-                  <span class="block text-xs text-muted">Chrome, Edge, Firefox</span>
-                </span>
-                <i data-lucide="arrow-up-right" class="h-4 w-4 shrink-0 text-muted transition group-hover:text-ink"></i>
-              </a>
-              <a href="privacy.html" class="group flex items-center gap-3 rounded-2xl border border-white/10 bg-panel/50 p-3.5 transition hover:border-white/25 hover:bg-panel">
-                <span class="grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-white/10 bg-deep/60 text-muted transition group-hover:text-lav"><i data-lucide="lock" class="h-4 w-4"></i></span>
-                <span class="min-w-0 flex-1">
-                  <span class="block text-sm font-semibold text-ink">Privacy policy</span>
-                  <span class="block text-xs text-muted">Every field it stores</span>
-                </span>
-                <i data-lucide="arrow-up-right" class="h-4 w-4 shrink-0 text-muted transition group-hover:text-ink"></i>
-              </a>
-            </div>
-          </aside>
-
-          <div class="prose" data-reveal>
-            <p>
-              Install it, pin the icon and reload the supported web app. Core protections start with sensible
-              defaults. Lifetime Pro customers can open the panel and enter their licence key to unlock WhatsApp
-              Web, Threads and Pro tools on up to three devices.
-            </p>
-
-            <div class="mt-8 overflow-hidden rounded-3xl border border-white/10 bg-void shadow-card">
-              <iframe
-                class="aspect-video h-full w-full"
-                src="https://www.youtube.com/embed/vQQiaikKLr4?rel=0"
-                title="Stay Unseen setup tutorial"
-                loading="lazy"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <p class="mt-3 text-sm text-muted">
-              Player not loading? <a class="font-semibold text-shield transition hover:text-ink" href="https://www.youtube.com/watch?v=vQQiaikKLr4" target="_blank" rel="noopener noreferrer">Watch it on YouTube</a>.
-            </p>
-
-            <h2>That's the whole thing</h2>
-            <p>Nothing to run, nothing to remember. Once it's installed:</p>
-            <ul>
-              <li>Installed from your browser's store.</li>
-              <li>Pinned to the toolbar.</li>
-              <li>Panel opens on supported Instagram, Facebook, Messenger, WhatsApp Web and Threads pages.</li>
-              <li>Core protection starts with sensible defaults.</li>
-              <li>Pro activation is available from the extension panel.</li>
-              <li>Nothing to run, nothing to remember.</li>
-              <li>Counters when you want the receipt.</li>
-            </ul>
-
-            <p>
-              Ready? <a href="index.html#install">Add Stay Unseen from your browser's store</a>, or read the
-              <a href="privacy.html">privacy policy</a> first.
-            </p>
+        <section id="install">
+          <h2>Start with the essentials</h2>
+          <p>Use Stay Unseen on supported websites in desktop Chrome, Edge or Firefox. Free privacy controls work without a licence key.</p>
+          <div class="doc-steps">
+            <article class="doc-step"><span class="doc-step-number">01 / INSTALL</span><h3>Add the extension</h3><p>Choose your browser from the <a href="index.html#install">official store links</a> and complete its installation prompt.</p></article>
+            <article class="doc-step"><span class="doc-step-number">02 / RELOAD</span><h3>Pin it. Refresh your tabs.</h3><p>Pin Stay Unseen from your browser’s extensions menu. Reload any social tabs that were already open, including after an update.</p></article>
+            <article class="doc-step"><span class="doc-step-number">03 / CHOOSE</span><h3>Open your dashboard</h3><p>Click the toolbar icon. Review the switches for each site and leave the privacy controls you want enabled.</p></article>
           </div>
-        </div>
-      </div>
-    </main>
+          <div class="doc-note"><p><strong>Coming from 1.1.1?</strong> The toolbar icon now opens a full-page dashboard. Your browser may ask for access to the added websites and media downloads. Read the <a href="changelog.html#v200">complete release notes</a> for the changes.</p></div>
+        </section>
+        <section id="dashboard">
+          <h2>Find your way around the dashboard</h2>
+          <ul>
+            <li><strong>All Protection:</strong> review the overall status, pause controls and platform settings. Each platform has individual switches and an “All” control.</li>
+            <li><strong>Platform sections:</strong> choose Instagram, Messenger &amp; FB, WhatsApp Web, Threads or TikTok to see the relevant controls.</li>
+            <li><strong>In-Page Utilities:</strong> manage download buttons, the floating pill, Mark Seen, unread markers, Focus mode, screen privacy and the download queue.</li>
+            <li><strong>Live Telemetry:</strong> see local blocked-signal totals, recent activity and charts. These statistics stay in your browser; this is not an analytics upload.</li>
+            <li><strong>Pause protection:</strong> choose 15m, 1h or 24h, or select Resume to end the pause early. Pausing allows privacy signals through across supported sites.</li>
+          </ul>
+          <p>Core privacy switches start enabled. Pro switches unlock after activation. <strong>Focus mode, screen privacy and the download queue start off</strong>, so turn them on when you need them.</p>
+          <p class="doc-small">Status and counters describe settings and observed blocked signals. They do not prove what another person sees, and repeated signals may be grouped together.</p>
+        </section>
+        <section id="platforms">
+          <h2>What works where</h2>
+          <p>Tools appear when the current page has a supported chat, profile or media item. The table below separates the original Free privacy features from Pro additions.</p>
+          <div class="doc-table-wrap" role="region" aria-label="Features by platform" tabindex="0">
+            <table class="platform-table">
+              <caption>Free and Pro features in version 2.0.0</caption>
+              <thead><tr><th scope="col">Platform</th><th scope="col">Free privacy</th><th scope="col">Pro additions</th></tr></thead>
+              <tbody>
+                <tr><td>Instagram</td><td>Story/reel views, DM read receipts, typing controls and native unread markers.</td><td>Supported video, story and voice-note downloads; follow status; Mark Seen; Focus mode; screen privacy.</td></tr>
+                <tr><td>Facebook</td><td>Story views, read receipts, typing controls and native unread markers.</td><td>Supported video, story and voice-note downloads; Mark Seen; Focus mode; screen privacy.</td></tr>
+                <tr><td>Messenger</td><td>Read receipts, typing controls and native unread markers.</td><td>Available chat voice-note downloads; Mark Seen; screen privacy.</td></tr>
+                <tr><td>WhatsApp Web</td><td>—</td><td>Blue-tick, typing/recording and status-view controls; screen privacy.</td></tr>
+                <tr><td>Threads</td><td>—</td><td>Presence/seen and typing controls; unread markers where supported; Focus mode; screen privacy. Works on threads.com and threads.net.</td></tr>
+                <tr><td>TikTok</td><td>—</td><td>Supported video downloads and incoming follow-status badges. TikTok tools do not block read receipts or hide profile visits.</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="doc-small">Pro also includes the status pill on all six platforms and the queue for supported Instagram, Facebook and TikTok media. These controls apply to websites, not the native mobile apps.</p>
+        </section>
+        <section id="activation">
+          <h2>Activate Lifetime Pro</h2>
+          <p>Lifetime Pro is a one-time <strong>$9.99 USD</strong> purchase for up to <strong>three browser installations</strong>, with no subscription. Separate browsers or browser profiles count as separate installations.</p>
+          <ol>
+            <li><a href="https://stayunseen.gumroad.com/l/stayunseen-pro" target="_blank" rel="noopener noreferrer">Get Lifetime Pro</a> and keep the licence key from your purchase email.</li>
+            <li>Click Stay Unseen’s toolbar icon and find the licence card in the dashboard.</li>
+            <li>Paste your key into <strong>Licence key</strong> and select <strong>Activate</strong>. You need an internet connection for this step.</li>
+            <li>Wait for the card to show <strong>Pro</strong>, then review your platform and utility switches. Refresh open social tabs to load the current tools.</li>
+          </ol>
+          <p>After activation, the extension checks the saved licence on your device. Using the social websites and downloading media still requires their normal internet connection. See <a href="privacy.html#licence">what activation sends</a>.</p>
+          <h3>Move Pro to another browser or computer</h3>
+          <p>On the old installation, choose <strong>Release this device</strong>. Enter your licence key again if asked, then select <strong>Release</strong>. After release succeeds, activate that key on the new installation. Releasing a device frees its slot and does not cancel your purchase.</p>
+          <p class="doc-small">Release before uninstalling or clearing extension data. If the old installation is no longer accessible or you reach the device limit, <a href="mailto:hrrpooh@gmail.com">contact support</a>.</p>
+        </section>
+        <section id="status-pill">
+          <h2>The new status pill</h2>
+          <p><span class="pro-tag">PRO</span> Look for the Stay Unseen icon near the bottom-right corner of a supported page. Select the pill to open quick controls for that site.</p>
+          <ul>
+            <li><strong>Check status:</strong> Active means the site’s privacy switches are enabled; Partial means some are off; Off means none are enabled; Paused means a temporary protection pause is running. TikTok shows whether its tools are On or Off.</li>
+            <li><strong>Change utilities:</strong> toggle the download buttons, follow badge, Mark Seen button, Focus mode, screen privacy or other utilities offered for the current site. Shared utility settings apply across supported tabs in the same browser profile.</li>
+            <li><strong>Pause or resume:</strong> on privacy-supported sites, pause protection for 15 minutes or resume immediately. This pause applies across supported sites. Use the dashboard for 1-hour or 24-hour pauses.</li>
+            <li><strong>Mark the open chat as seen:</strong> this shortcut appears only when the supported chat action is available. Mark Seen works on supported Instagram, Facebook and Messenger chats.</li>
+            <li><strong>Open dashboard:</strong> jump to the full set of controls.</li>
+            <li><strong>Hide status pill:</strong> the choice is saved. To bring it back, click the extension’s toolbar icon, open <strong>In-Page Utilities</strong> and enable <strong>Floating status pill</strong>.</li>
+          </ul>
+          <p>The pill remains usable while screen privacy blurs and locks the page. Use it to turn screen privacy off, or use the dashboard. Press <kbd>Esc</kbd> or click outside to close quick controls; <kbd>Tab</kbd> moves between controls.</p>
+          <p><a href="index.html#status-pill">Try the homepage’s status pill demo</a>. It only changes the website preview.</p>
+        </section>
+        <section id="mark-seen">
+          <h2>Send a read receipt when you choose</h2>
+          <p><span class="pro-tag">PRO</span> Enable <strong>Mark Seen button</strong> in In-Page Utilities, then open a supported Instagram, Facebook or Messenger conversation. The button sits just above the active message composer.</p>
+          <p>Select <strong>Mark Seen</strong> when you want to send the receipt for that chat. This deliberately lets the messaging service know you have read it.</p>
+          <ul>
+            <li><strong>Receipt sent:</strong> the extension observed the receipt being handed to the service.</li>
+            <li><strong>Read requested:</strong> the site’s read action ran, but delivery was not confirmed.</li>
+            <li><strong>Retry Mark Seen:</strong> reopen the conversation or refresh the tab and try again.</li>
+          </ul>
+          <p class="doc-small">Availability depends on the site’s current chat layout. Mark Seen is not supported on WhatsApp Web, Threads or TikTok. A local result does not guarantee that the other person’s screen has updated.</p>
+        </section>
+        <section id="downloads">
+          <h2>Save media and organize downloads</h2>
+          <p><span class="pro-tag">PRO</span> Turn on <strong>Video &amp; story downloads</strong> for Instagram/Facebook media, or <strong>Video downloads</strong> in the TikTok section.</p>
+          <ol>
+            <li>Open the media you want. For a video, start playback so the site makes its media available.</li>
+            <li>Use <strong>Video</strong> on a supported Instagram/Facebook player, <strong>Download Media</strong> in a supported story viewer, or <strong>Save Audio</strong> beside an available voice note.</li>
+            <li>On TikTok, use <strong>Download video</strong> at the top right of the video. If clean playback media is unavailable, play the video and retry.</li>
+            <li>Check your browser’s downloads for the saved file. “Download started” means the save has begun; it is not a completion notice.</li>
+          </ol>
+          <p class="doc-small">Downloads use media the supported page makes available. TikTok photo slideshows are not included, and marks embedded by the uploader cannot be removed. Chrome and Edge currently support TikTok downloads up to 128 MB.</p>
+          <h3>Use the download queue</h3>
+          <p>Enable <strong>Download queue</strong> under In-Page Utilities, then use a supported media download button. Remote Instagram, Facebook and TikTok media can be queued one at a time; media available only as a temporary in-page file saves directly.</p>
+          <ul>
+            <li><strong>Pause queue</strong> stops the next item from starting. An active download continues.</li>
+            <li><strong>Resume queue</strong> continues pending items; <strong>Cancel</strong> stops a selected pending or active item; <strong>Retry</strong> retries a failed item.</li>
+            <li><strong>Organize new queued downloads</strong> saves new queue entries under <code>Stay Unseen / platform / date</code> in your downloads folder.</li>
+            <li><strong>Clear finished</strong> removes finished, cancelled and failed queue entries. It does not delete files already saved to your computer.</li>
+          </ul>
+          <p>If a media link has expired, return to the original post, play the media again and select its download button.</p>
+        </section>
+        <section id="follow-status">
+          <h2>See whether a profile follows you</h2>
+          <p><span class="pro-tag">PRO</span> Enable <strong>Show following status</strong> in the Instagram or TikTok section. Sign in to that website and open a profile.</p>
+          <p>The badge reports whether <strong>that account follows you</strong>, or identifies your own profile. If the site does not provide enough information, it shows an unavailable result or a retry option. Reopen the profile or retry after its details finish loading.</p>
+        </section>
+        <section id="focus">
+          <h2>Focus mode and screen privacy</h2>
+          <p><span class="pro-tag">PRO</span> Both are optional switches in In-Page Utilities. They start off and can also be controlled from the pill where available.</p>
+          <ul>
+            <li><strong>Focus mode</strong> hides supported home feeds and reel surfaces on Instagram, Facebook and Threads. Messaging remains available. Turn it off to show the feed again.</li>
+            <li><strong>Screen-sharing privacy</strong> blurs and locks Instagram, Facebook, Messenger, WhatsApp Web and Threads pages. Turn it off from the pill or dashboard to interact with the page again.</li>
+          </ul>
+          <div class="doc-note"><p>Screen privacy affects supported webpages. It does not hide browser notifications, other applications or TikTok. The status pill stays outside the blurred page so its controls remain accessible.</p></div>
+        </section>
+        <section id="help">
+          <h2>If something needs a retry</h2>
+          <div class="doc-faq">
+            <details><summary>A control is missing or nothing changed after updating</summary><p>Refresh the social tab, check that Stay Unseen is enabled for that site in your browser, and review the matching dashboard switch. Pro tools also require an active Pro licence. If the pill was hidden, restore Floating status pill in In-Page Utilities.</p></details>
+            <details><summary>My privacy controls say Paused, Partial or Off</summary><p>Select Resume to end a pause. For Partial or Off, review that platform’s individual privacy switches. TikTok’s pill reports download and profile tools, rather than privacy blocking.</p></details>
+            <details><summary>Mark Seen or a download reports a failure</summary><p>Open the correct conversation or media item and try again. Start video playback before downloading. If a queued link has expired, select the media again from the original post. Site changes can affect which actions are available.</p></details>
+            <details><summary>My Pro key cannot activate</summary><p>Check the key from your purchase email and your internet connection. If all three slots are in use, release an old installation first. Contact support if you no longer have access to it.</p></details>
+          </div>
+          <p class="doc-small" style="margin-top:20px">For more help, email <a href="mailto:hrrpooh@gmail.com">hrrpooh@gmail.com</a> with your browser, extension version, affected site and the message shown. There is no need to include private conversations.</p>
+        </section>
+        <section id="video">
+          <h2>Video overview</h2>
+          <p>This earlier setup video is a useful introduction. Follow the written instructions above for the 2.0.0 dashboard, Pro tools and updated status pill.</p>
+          <figure class="doc-video">
+            <video controls playsinline preload="none" width="1920" height="1080" poster="assets/tutorial-poster.jpg" aria-label="Earlier Stay Unseen setup video">
+              <source src="assets/stay-unseen-tutorial.mp4" type="video/mp4">
+              Your browser cannot play this video. <a href="assets/stay-unseen-tutorial.mp4">Download the video</a>.
+            </video>
+            <figcaption>The written guide on this page covers setup and all current tools. The video loads when you choose to play it.</figcaption>
+          </figure>
+          <p class="doc-small"><a href="https://www.youtube.com/watch?v=vQQiaikKLr4" target="_blank" rel="noopener noreferrer">Watch the original overview on YouTube</a> (opens an external site).</p>
+        </section>
 
-    <!-- ================= FOOTER ================= -->
-    <footer class="border-t border-white/10 bg-deep/60 px-5 py-10">
-      <div class="mx-auto max-w-6xl space-y-2 text-center font-mono text-[10.5px] text-muted">
-        <p>Stay Unseen v1.4.26 · local-first · no analytics · no browsing content transmitted</p>
-        <p>
-          <a class="transition hover:text-ink" href="privacy.html">Privacy policy</a>
-          · Independent project, not affiliated with Meta Platforms, Instagram, Facebook, or Microsoft
-        </p>
-        <p>
-          Made by
-          <a class="transition hover:text-ink" href="https://mheadows.bond/" target="_blank" rel="noopener noreferrer">Mheadows</a>
-        </p>
       </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" integrity="sha384-g4NTh/Iv5PPU4xPyhEWqPcwtNXOvdaDI8LLnyYfyNZOjKJeYQyjzQ9X5275eBjpt" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" integrity="sha384-Z3REaz79l2IaAZqJsSABtTbhjgOUYyV3p90XNnAPCSHg3EMTz1fouunq9WZRtj3d" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lucide@0.468.0/dist/umd/lucide.min.js" integrity="sha384-uTYyvsSSUZeaPhb5RbKlQa0zY/WpX/QHfvg2mczXyBQOpkWPEDy9lczyp+w7SKXu" crossorigin="anonymous"></script>
-    <script src="assets/app.js"></script>
-  </body>
+    </div>
+  </main>
+  <footer class="wrap site-footer">
+    <div class="footer-top">
+      <a class="brand" href="index.html"><img src="assets/icon128.png" width="32" height="32" alt="Stay Unseen logo"><span>Stay Unseen<span class="brand-caption">All-in-One Social Suite</span></span></a>
+      <nav aria-label="Footer navigation"><a href="privacy.html">Privacy</a><a href="tutorial.html">Setup guide</a><a href="changelog.html">Changelog</a><a href="https://mheadows.bond/" target="_blank" rel="noopener noreferrer">Mheadows ↗</a></nav>
+    </div>
+    <div class="footer-bottom"><p>Independent project. Not affiliated with Meta, TikTok, WhatsApp, Google, Microsoft or Mozilla.</p><span>Version 2.0.0</span></div>
+  </footer>
+</body>
 </html>
