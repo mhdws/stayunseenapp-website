@@ -1,0 +1,46 @@
+Stay Unseen 2.0.0
+Current build and toolkit summary since version 1.1.1
+
+Privacy controls and Pro tools for six social platforms, in one dashboard.
+Tools accumulated during 1.x development are listed as included, not all first introduced in 2.0.0.
+
+CURRENT 2.0.0 CHANGES
+- Licensing V2: Gumroad verification via the Stay Unseen API, expiring signed entitlements, refresh credentials and release of browser-installation slots. Legacy purchase migration remains available when enabled.
+- Inline local runtime-health badges beside features, with exact diagnostic reasons on hover, focus or click.
+- Public Status page using published manual compatibility records and verification dates, separate from browser-local health and counters.
+- WhatsApp Mark Seen uses the selected chat receipt action and respects WhatsApp read-receipt settings.
+- Threads follow status supports explicit follower/non-follower results with a rounded badge after the username. Instagram places its badge below the follow control.
+
+YOUR ORIGINAL PRIVACY CONTROLS STAY FREE
+- Instagram: hide story and reel views, block DM read receipts, and hide typing indicators.
+- Facebook and Messenger: hide Facebook story views, block read receipts, and hide typing indicators.
+- Keep native unread markers where the site supports them.
+
+THE DASHBOARD
+- A full-page dashboard replaces the small toolbar popup, with controls grouped by platform and feature.
+- See local activity totals, recent blocks, 24-hour and 7-day charts, and clearer protection status.
+- Pause protection for 15 minutes, 1 hour or 24 hours, then resume automatically or whenever you choose.
+
+OPTIONAL LIFETIME PRO
+- One purchase unlocks Pro on up to three browser installations. Activate with your licence key and release a device when moving. Pro access is verified locally and refreshed through the Stay Unseen API; it is not permanent offline activation.
+- WhatsApp Web: block blue ticks, hide typing and recording indicators, and hide status views.
+- Threads: control presence, seen status and typing on both threads.com and threads.net.
+- Download supported Instagram and Facebook videos, reels and story photos or videos, plus available voice notes in Instagram, Facebook and Messenger chats.
+- Download TikTok videos using watermark-free playback media when available. Photo slideshows and watermarks added by the uploader are not supported.
+- See whether an Instagram, Threads or TikTok profile follows you, with clearer results and retry options when a relationship cannot be checked.
+- Use Mark Seen in supported Instagram, Facebook, Messenger and WhatsApp Web chats to send a read receipt when you choose.
+- Use the floating status pill on all six platforms to open site-specific tools, check status, open the dashboard or hide the pill. Privacy sites also offer pause and resume. Restore the pill from the dashboard.
+- Focus mode hides supported Instagram, Facebook and Threads feeds while keeping messaging available.
+- Screen privacy blurs and locks Instagram, Facebook, Messenger, WhatsApp Web and Threads pages. The status pill stays usable so you can turn privacy off.
+- Queue supported Instagram, Facebook and TikTok media downloads, with pause, resume, cancel and retry controls. Organize queued files into platform and date folders.
+
+FIXES AND IMPROVEMENTS
+- Improved blocking and unread markers for current social-site layouts while preserving normal chat loading and message sending.
+- Mark Seen stays above the active chat composer without covering reader avatars or appearing in Facebook media comments.
+- Media buttons stay attached to the right video or story as pages change, with clearer download status and retry messages.
+- The status pill has keyboard controls, clearer Active, Partial, Off and Paused states, and settings that carry across supported tabs in the same browser profile. TikTok shows tool status.
+- Local diagnostics no longer capture raw request bodies. The public dashboard is simpler, with the technical diagnostics drawer reserved for support builds.
+
+AFTER UPDATING
+- Reload your open social tabs. Your browser may ask you to approve access for the added websites and media downloads.
+- Focus mode, screen privacy and the download queue are optional and start off. Core Instagram, Facebook and Messenger privacy does not require a Pro key.
