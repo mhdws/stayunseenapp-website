@@ -9,7 +9,7 @@
 .doc-meta .tiny-pill { font-size: 10px; }
 .doc-actions { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; margin-top: 26px; }
 .doc-layout { display: grid; grid-template-columns: 215px minmax(0,1fr); align-items: start; gap: 64px; margin-top: 48px; }
-.doc-aside { position: sticky; top: 118px; }
+.doc-aside { position: sticky; top: 118px; max-height: calc(100vh - 140px); overflow-y: auto; }
 .doc-aside .eyebrow { font-size: 9px; }
 .doc-toc { display: grid; gap: 2px; margin-top: 17px; }
 .doc-toc a { display: block; padding: 9px 12px; border-left: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.65; transition: color .2s,border-color .2s,background .2s; }
@@ -71,7 +71,7 @@
 }
 @media (max-width: 800px) {
   .doc-layout { grid-template-columns: 1fr; gap: 30px; margin-top: 32px; }
-  .doc-aside { position: static; }
+  .doc-aside { position: static; max-height: none; overflow: visible; }
   .doc-toc { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
   .doc-toc a { padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; font-size: 11px; }
   .doc-aside-note { display: none; }

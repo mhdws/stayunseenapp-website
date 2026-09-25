@@ -17,8 +17,8 @@
     instagram: { name: 'Instagram', tools: ['media', 'follow', 'mark', 'focus', 'screen', 'queue', 'unread'] },
     facebook: { name: 'Facebook', tools: ['media', 'mark', 'focus', 'screen', 'queue', 'unread'] },
     messenger: { name: 'Messenger', tools: ['media', 'mark', 'screen', 'queue', 'unread'] },
-    whatsapp: { name: 'WhatsApp Web', tools: ['screen'] },
-    threads: { name: 'Threads', tools: ['focus', 'screen', 'unread'] },
+    whatsapp: { name: 'WhatsApp Web', tools: ['mark', 'screen'] },
+    threads: { name: 'Threads', tools: ['follow', 'focus', 'screen', 'unread'] },
     tiktok: { name: 'TikTok', tools: ['tiktokMedia', 'tiktokFollow'] }
   };
   const labels = {
