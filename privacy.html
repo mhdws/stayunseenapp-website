@@ -57,7 +57,7 @@
     <div class="doc-layout">
       <aside class="doc-aside">
         <p class="eyebrow">On this page</p>
-        <nav class="doc-toc" aria-label="On this page"><a href="#short">Overview</a><a href="#reading">How page data is used</a><a href="#stores">Data stored in your browser</a><a href="#licence">Pro licensing and API requests</a><a href="#payments">Payments and legacy purchases</a><a href="#infrastructure">Cloudflare and server records</a><a href="#compatibility">Compatibility and local feature health</a><a href="#downloads">Downloads and profile checks</a><a href="#permissions">Browser permissions</a><a href="#website">Website, cookies and support</a><a href="#retention">Data retention</a><a href="#security">Security</a><a href="#not">What Stay Unseen does not do</a><a href="#control">Your controls and data removal</a><a href="#children">Children</a><a href="#changes">Changes to this policy</a><a href="#contact">Contact</a><a href="#affiliation">Affiliation</a></nav>
+        <nav class="doc-toc" aria-label="On this page"><a href="#short">Overview</a><a href="#reading">How page data is used</a><a href="#stores">Data stored in your browser</a><a href="#licence">Pro licensing and API requests</a><a href="#payments">Payments</a><a href="#infrastructure">Cloudflare and server records</a><a href="#compatibility">Compatibility and local feature health</a><a href="#downloads">Downloads and profile checks</a><a href="#permissions">Browser permissions</a><a href="#website">Website, cookies and support</a><a href="#retention">Data retention</a><a href="#security">Security</a><a href="#not">What Stay Unseen does not do</a><a href="#control">Your controls and data removal</a><a href="#children">Children</a><a href="#changes">Changes to this policy</a><a href="#contact">Contact</a><a href="#affiliation">Affiliation</a></nav>
         <div class="doc-aside-note"><p>Need a hand with Stay Unseen?</p><a class="text-link" href="mailto:hrrpooh@gmail.com">Contact support <span aria-hidden="true">↗</span></a></div>
       </aside>
       <div class="doc-content">
@@ -109,12 +109,11 @@
         </section>
 
         <section id="payments">
-          <h2>Payments and legacy purchases</h2>
+          <h2>Payments</h2>
           <p>Current Pro purchases use <strong>Gumroad</strong>. Gumroad handles checkout, customer email, billing and payment information under its own terms. The Stay Unseen website and extension do not provide a payment-card form or receive full card details through the licensing implementation.</p>
           <p>During activation, the Worker sends Gumroad the licence key and product reference to verify the purchase. Later checks can use a purchase or subscription reference instead of the key. Gumroad’s responses and callbacks may include customer and transaction information; the Worker uses the purchase identifiers, product/tier and entitlement-related state to establish or update access. It does not copy the full provider response or customer email into the current D1 licensing records.</p>
           <p>The backend supports Gumroad sale, refund, dispute, dispute-won, cancellation, subscription-updated, subscription-ended and subscription-restarted notifications. A recognized notification triggers a provider check before updating entitlement. Support for subscription events does not mean the currently advertised one-time Pro offer is a subscription.</p>
-          <p>For existing <strong>Lemon Squeezy</strong> purchases, the code retains a migration path when enabled. The Worker can send the original key to Lemon Squeezy for validation and the installation identifier as an activation-instance name. This is a legacy purchase path, not the checkout for new Pro purchases.</p>
-          <p class="doc-small"><a href="https://gumroad.com/privacy" target="_blank" rel="noopener noreferrer">Gumroad privacy policy</a> · <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener noreferrer">Lemon Squeezy privacy policy</a> (legacy purchases)</p>
+          <p class="doc-small"><a href="https://gumroad.com/privacy" target="_blank" rel="noopener noreferrer">Gumroad privacy policy</a></p>
         </section>
 
         <section id="infrastructure">
@@ -195,7 +194,7 @@
           <li><strong>Release Pro:</strong> Release this device contacts the API. After a successful release, the dashboard removes the local entitlement, device identifier, refresh credential and licensing state. The installation identifier remains. This frees a Stay Unseen installation slot; it does not cancel or refund a purchase.</li>
           <li><strong>Remove extension data:</strong> uninstall Stay Unseen or use your browser’s extension-data controls where available. Delete downloaded files separately if desired.</li>
           </ul>
-          <p>Release your Pro installation before uninstalling or clearing data. Local removal alone does not release a server-side slot or delete Gumroad’s purchase records (or records of a legacy purchase). If you cannot access the old installation, or want to ask about server-side information or support correspondence, <a href="mailto:hrrpooh@gmail.com">contact support</a>.</p>
+          <p>Release your Pro installation before uninstalling or clearing data. Local removal alone does not release a server-side slot or delete Gumroad’s purchase records. If you cannot access the old installation, or want to ask about server-side information or support correspondence, <a href="mailto:hrrpooh@gmail.com">contact support</a>.</p>
         </section>
 
         <section id="children">
