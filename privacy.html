@@ -51,7 +51,7 @@
       <p class="eyebrow">Privacy policy / Version 2.0.0</p>
       <h1><span class="sr-only">Stay Unseen 2.0.0 — </span>Your data. <br><span>Clearly explained.</span></h1>
       <p class="doc-lead">Local privacy controls, optional Pro activation, and useful tools. Here is what each part stores and when it connects to a service.</p>
-      <div class="doc-meta"><span class="tiny-pill">STAY UNSEEN 2.0.0</span><span>Last updated 24 September 2026</span></div>
+      <div class="doc-meta"><span class="tiny-pill">STAY UNSEEN 2.0.0</span><span>Last updated 26 September 2026</span></div>
       
     </header>
     <div class="doc-layout">
@@ -88,7 +88,7 @@
           <tr><td>Download Queue</td><td>Media URLs, filenames, platform, creation time, browser download IDs, status and errors. Completed/cancelled URLs are removed; failed URLs remain available for retry until their entries are cleared or age out of the bounded history. Saved files and browser download history are separate.</td></tr>
           <tr><td>Licensing information</td><td>A random installation identifier, including for Free users. Pro activation additionally stores a signed entitlement, opaque device identifier, refresh credential and licensing state so access can be checked locally and renewed. The entered purchase key is not saved in extension storage.</td></tr>
           </tbody></table></div>
-          <p>The current extension does not retain raw request-body or WebSocket-frame captures; an upgrade cleanup clears the old capture stores. Diagnostic summaries omit raw message-body captures. The normal production dashboard omits the technical diagnostics drawer; support builds can expose local log and copy controls. Copying or sending a support report is a separate action you choose.</p>
+          <p>The current extension does not retain raw request-body or WebSocket-frame captures; an upgrade cleanup clears the old capture stores. Diagnostic summaries omit raw message-body captures. The production dashboard omits the technical diagnostics drawer. There is no automatic diagnostic-report upload; you choose what information to share when contacting support.</p>
           <p><strong>Live Telemetry means local activity and diagnostics.</strong> It is not a server analytics feed. Reset counters clears activity totals, recent blocks and chart history, but does not clear every diagnostic record, your preferences, licence or download queue.</p>
         </section>
 
@@ -177,6 +177,7 @@
 
         <section id="security">
           <h2>Security</h2>
+          <p>The 2.0.0 licence-check improvements run locally. They add no new data collection, browser permissions or external services.</p>
           <p>Licensing and compatibility requests use HTTPS. Pro entitlements are signed and checked for the installation and expiry. The server stores keyed licence/refresh hashes rather than reusable raw values in D1. These measures reduce exposure; they are not a guarantee against every security incident. Treat your purchase key and local activation credentials as private.</p>
         </section>
 
@@ -225,7 +226,7 @@
       <a class="brand" href="index.html"><img src="assets/icon128.png" width="32" height="32" alt="Stay Unseen logo"><span>Stay Unseen<span class="brand-caption">All-in-One Social Suite</span></span></a>
       <nav aria-label="Footer navigation"><a href="privacy.html">Privacy</a><a href="tutorial.html">Setup guide</a><a href="changelog.html">Changelog</a><a href="status.html">Status</a><a href="https://mheadows.bond/" target="_blank" rel="noopener noreferrer">Mheadows ↗</a></nav>
     </div>
-    <div class="footer-bottom"><p>Independent project. Not affiliated with Meta, TikTok, WhatsApp, Google, Microsoft or Mozilla.</p><span>Version 2.0.0</span></div>
+    <div class="footer-bottom"><p>&copy; 2026 Mheadows. All rights reserved.<br>Independent project. Not affiliated with Meta, TikTok, WhatsApp, Google, Microsoft or Mozilla.</p><span>Version 2.0.0</span></div>
   </footer>
 </body>
 </html>

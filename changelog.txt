@@ -6,6 +6,7 @@ Tools accumulated during 1.x development are listed as included, not all first i
 
 CURRENT 2.0.0 CHANGES
 - Licensing V2: Gumroad verification via the Stay Unseen API, expiring signed entitlements, refresh credentials and release of browser-installation slots. Legacy purchase migration remains available when enabled.
+- Improved local Pro licence checks across Chrome, Edge and Firefox. Existing valid activations are preserved, with no new purchase or reactivation needed for this change.
 - Inline local runtime-health badges beside features, with exact diagnostic reasons on hover, focus or click.
 - Public Status page using published manual compatibility records and verification dates, separate from browser-local health and counters.
 - WhatsApp Mark Seen uses the selected chat receipt action and respects WhatsApp read-receipt settings.
@@ -39,8 +40,9 @@ FIXES AND IMPROVEMENTS
 - Mark Seen stays above the active chat composer without covering reader avatars or appearing in Facebook media comments.
 - Media buttons stay attached to the right video or story as pages change, with clearer download status and retry messages.
 - The status pill has keyboard controls, clearer Active, Partial, Off and Paused states, and settings that carry across supported tabs in the same browser profile. TikTok shows tool status.
-- Local diagnostics no longer capture raw request bodies. The public dashboard is simpler, with the technical diagnostics drawer reserved for support builds.
+- Local diagnostics no longer capture raw request bodies. The public dashboard is simpler, with the technical diagnostics drawer omitted from store versions.
 
 AFTER UPDATING
+- Keep your existing installation and extension data when updating; valid Pro activations carry over.
 - Reload your open social tabs. Your browser may ask you to approve access for the added websites and media downloads.
 - Focus mode, screen privacy and the download queue are optional and start off. Core Instagram, Facebook and Messenger privacy does not require a Pro key.
